@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import os
 import smtplib
+import time
 from email.header import Header
 from email.mime.text import MIMEText
 from email.utils import formataddr
@@ -63,12 +64,26 @@ def send_email(grouped: dict[str, list[Job]], health_warnings: list[str] | None 
     msg["Subject"] = Header(f"【秋招监控】本轮新增 {total} 个岗位", "utf-8")
     msg["From"] = formataddr((str(Header(sender_name, "utf-8")), user))
     msg["To"] = to_addr
+    recipients = [a.strip() for a in to_addr.split(",")]
 
-    if port == 465:
-        server = smtplib.SMTP_SSL(host, port, timeout=30)
-    else:
-        server = smtplib.SMTP(host, port, timeout=30)
-        server.starttls()
-    server.login(user, pwd)
-    server.sendmail(user, [a.strip() for a in to_addr.split(",")], msg.as_string())
-    server.quit()
+    last_err = None
+    for attempt in range(1, 4):  # 偶发网络抖动:最多重试 3 次
+        try:
+            if port == 465:
+                server = smtplib.SMTP_SSL(host, port, timeout=60)
+            else:
+                server = smtplib.SMTP(host, port, timeout=60)
+                server.starttls()
+            server.login(user, pwd)
+            server.sendmail(user, recipients, msg.as_string())
+            server.quit()
+            return
+        except Exception as e:  # noqa
+            last_err = e
+            print(f"[发信重试 {attempt}/3] {e}")
+            try:
+                server.close()
+            except Exception:
+                pass
+            time.sleep(5)
+    raise last_err

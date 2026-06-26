@@ -64,7 +64,7 @@ companies:
   - {name: 滴滴,         category: 乙, ats: moka,    tier: 岗位级, url: "https://campus.didiglobal.com/", enabled: true}
   - {name: 小红书,       category: 乙, ats: generic, tier: 岗位级, url: "https://job.xiaohongshu.com/campus", enabled: true}
   - {name: 哔哩哔哩,     category: 乙, ats: generic, tier: 岗位级, url: "https://jobs.bilibili.com/campus/positions", enabled: true}
-  - {name: 360,          category: 乙, ats: generic, tier: 岗位级, url: "https://hr.360.cn/campus", enabled: true}
+  - {name: "360",        category: 乙, ats: generic, tier: 岗位级, url: "https://hr.360.cn/campus", enabled: true}
   - {name: 华为,         category: 乙, ats: generic, tier: 岗位级, url: "https://career.huawei.com/reccampportal/portal5/campus-recruitment.html", enabled: true}
   - {name: 小米,         category: 乙, ats: moka,    tier: 岗位级, url: "https://app.mokahr.com/campus_apply/xiaomi/286", enabled: true}
   - {name: OPPO,         category: 乙, ats: generic, tier: 岗位级, url: "https://careers.oppo.com/university/oppo/campus", enabled: true}

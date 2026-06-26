@@ -3,7 +3,12 @@ name: 秋招监控
 on:
   schedule:
     - cron: "0 0,12 * * *"   # UTC 00:00 / 12:00 = 北京 08:00 / 20:00,每 12 小时一轮
-  workflow_dispatch: {}        # 允许手动触发(测试用)
+  workflow_dispatch:           # 允许手动触发
+    inputs:
+      test_email:
+        description: "发一封示例邮件验证(不抓取)"
+        type: boolean
+        default: false
 
 # 需要写权限,以便把去重库 data/qiuzhao.db 提交回仓库(保持跨轮次状态)
 permissions:
@@ -38,7 +43,12 @@ jobs:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           MAIL_TO: ${{ secrets.MAIL_TO }}
           MAIL_FROM_NAME: 秋招监控
-        run: python run.py
+        run: |
+          if [ "${{ inputs.test_email }}" = "true" ]; then
+            python run.py --test-email
+          else
+            python run.py
+          fi
 
       - name: 保存去重状态(提交回仓库)
         run: |

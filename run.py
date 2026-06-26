@@ -30,8 +30,21 @@ if __name__ == "__main__":
     if args.test_email:
         from monitor.models import Job
         from monitor.notifier import send_email
-        demo = {"甲": [Job("中孚信息", "甲", "服务端开发工程师-Java", "https://join.zhongfu.net/", "济南市")],
-                "乙": [Job("奇安信", "乙", "渗透测试工程师（攻防方向）", "https://app.mokahr.com/campus-recruitment/qianxin/29182", "")]}
+        demo = {
+            "甲": [
+                Job("浪潮集团", "甲", "云计算研发工程师", "https://inspur.hcmcloud.cn/recruit", "济南市"),
+                Job("中孚信息", "甲", "服务端开发工程师-Java", "https://join.zhongfu.net/", "济南市"),
+                Job("歌尔股份", "甲", "嵌入式软件工程师", "https://goertek.hotjob.cn/", "潍坊市"),
+            ],
+            "乙": [
+                Job("奇安信", "乙", "渗透测试工程师（攻防方向）", "https://app.mokahr.com/campus-recruitment/qianxin/29182", "北京市"),
+                Job("蔚来", "乙", "校招-AI研究工程师", "https://nio.jobs.feishu.cn/campus", "上海市"),
+                Job("智谱", "乙", "大模型算法工程师（校招）", "https://zhipu-ai.jobs.feishu.cn/zhipucampus", "北京市"),
+            ],
+            "丙": [
+                Job("齐鲁制药", "丙", "信息化系统开发工程师", "https://qilu-pharma.zhiye.com/", "济南市"),
+            ],
+        }
         send_email(demo)
         print("✅ 测试邮件已发送,去收件箱看看。")
     else:
