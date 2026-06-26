@@ -14,6 +14,7 @@ class Job:
     url: str              # 职位详情/投递链接
     location: str = ""    # 工作地点(能抓到就填)
     raw: str = ""         # 原始文本(用于匹配兜底)
+    is_new: bool = False  # 是否本轮新增(用于邮件标记 🆕)
 
     @property
     def fingerprint(self) -> str:

@@ -28,7 +28,8 @@ def run(send: bool = True, only: str | None = None) -> dict[str, list[Job]]:
     store = Store()
     first_run = store.is_first_run()
 
-    all_new: list[Job] = []
+    all_current: list[Job] = []   # 本轮抓到的全部匹配岗位(新增+原有在招)
+    new_jobs: list[Job] = []      # 其中本轮新增的
     warnings: list[str] = []
 
     with Renderer() as r:
@@ -38,7 +39,10 @@ def run(send: bool = True, only: str | None = None) -> dict[str, list[Job]]:
                 jobs = fetch_company(page, c)
                 matched = [j for j in jobs if matches(j)]
                 new = store.filter_new(matched)
-                all_new.extend(new)
+                for j in new:
+                    j.is_new = True
+                all_current.extend(matched)
+                new_jobs.extend(new)
                 store.record_ok(c["name"])
                 print(f"[OK] {c['name']:<14} 抓到 {len(jobs):>3} / 匹配 {len(matched):>3} / 新增 {len(new):>3}")
             except Exception as e:  # noqa
@@ -49,27 +53,29 @@ def run(send: bool = True, only: str | None = None) -> dict[str, list[Job]]:
             finally:
                 page.close()
 
+    # 邮件分组:同步「新增 + 原有在招」全部岗位,新增的带 🆕 标记
     grouped: dict[str, list[Job]] = {}
-    for j in all_new:
+    for j in all_current:
         grouped.setdefault(j.category, []).append(j)
 
     if first_run:
-        print(f"\n[首轮] 建立基线，登记 {len(all_new)} 个岗位，本轮不发邮件。")
-        store.mark_notified(all_new)
+        print(f"\n[首轮] 建立基线，登记 {len(new_jobs)} 个岗位，本轮不发邮件。")
+        store.mark_notified(new_jobs)
         store.close()
         return grouped
 
-    total = len(all_new)
-    if send and (total > 0 or warnings):
+    new_count = len(new_jobs)
+    # 仅当有「新增」或有抓取告警时才发(避免无变化打扰),但邮件正文同步全部在招岗位
+    if send and (new_count > 0 or warnings):
         try:
-            send_email(grouped, warnings)
-            store.mark_notified(all_new)
-            print(f"\n[邮件] 已发送，新增 {total} 个岗位。")
+            send_email(grouped, new_count, warnings)
+            store.mark_notified(new_jobs)
+            print(f"\n[邮件] 已发送，新增 {new_count}，当前在招 {len(all_current)}。")
         except Exception as e:  # noqa
             print(f"\n[邮件失败] {e}", file=sys.stderr)
             traceback.print_exc()
     else:
-        print(f"\n[完成] 新增 {total} 个岗位" + ("（未配置发送，跳过邮件）" if not send else "，无需发邮件。"))
+        print(f"\n[完成] 新增 {new_count} 个岗位" + ("（未配置发送，跳过邮件）" if not send else "，无需发邮件。"))
 
     store.close()
     return grouped
