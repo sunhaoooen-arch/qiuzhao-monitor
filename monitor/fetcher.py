@@ -27,8 +27,8 @@ class AtsProfile:
     goto_suffix: str = ""
     # 职位列表「hash 路由」:页面(重定向后)用 location.hash 切过去(如 Moka #/jobs)
     hash_route: str = ""
-    # 等待超时
-    wait_ms: int = 15000
+    # 等待超时(networkidle)
+    wait_ms: int = 7000
     # 是否需要滚动加载(懒加载列表)
     scroll: bool = True
 
@@ -82,23 +82,23 @@ def fetch_company(page, company: dict) -> list[Job]:
         url = url.rstrip("/") + profile.goto_suffix
 
     # 1) 先打开落地页,等它(可能的)重定向与首屏加载完成
-    page.goto(url, wait_until="domcontentloaded", timeout=40000)
+    page.goto(url, wait_until="domcontentloaded", timeout=20000)
     try:
         page.wait_for_load_state("networkidle", timeout=profile.wait_ms)
     except PWTimeout:
         pass
-    page.wait_for_timeout(2500)
+    page.wait_for_timeout(1500)
 
     # 2) hash 路由 SPA:切到「职位列表」路由(重定向后再切才生效)
     if profile.hash_route:
         page.evaluate("h => { window.location.hash = h }", profile.hash_route.lstrip("#"))
-        page.wait_for_timeout(3500)
+        page.wait_for_timeout(2000)
 
     # 3) 懒加载列表:滚动到底
     if profile.scroll:
-        for _ in range(5):
+        for _ in range(3):
             page.mouse.wheel(0, 3000)
-            page.wait_for_timeout(900)
+            page.wait_for_timeout(600)
 
     raw_items = page.evaluate(_COLLECT_JS, profile.job_href_re)
 
