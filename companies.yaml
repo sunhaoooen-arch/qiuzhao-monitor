@@ -1,0 +1,145 @@
+# ============================================================
+# 2027届秋招监控 · 目标公司全量清单(121家)
+# ------------------------------------------------------------
+# 字段:
+#   name      公司名
+#   category  甲 / 乙 / 丙
+#   ats       招聘系统(决定提取规则):
+#             moka feishu beisen zhilian job51 hotjob hcm iguopin generic
+#   url       校招页 URL
+#   tier      可达档位: 岗位级 / 公告级 / 公众号
+#   enabled   是否启用抓取(岗位级→true;公告级/公众号暂 false,后续做"公告变更"监控)
+# 来源:桌面《秋招监控-URL与ATS盘点.md》
+# ============================================================
+
+companies:
+
+  # ========== 甲类 · 山东重点关注 ==========
+  - {name: 浪潮集团,     category: 甲, ats: hcm,     tier: 岗位级, url: "https://inspur.hcmcloud.cn/recruit", enabled: true}
+  - {name: 中孚信息,     category: 甲, ats: moka,    tier: 岗位级, url: "https://join.zhongfu.net/", enabled: true}
+  - {name: 山大地纬,     category: 甲, ats: generic, tier: 公众号, url: "https://www.dareway.com.cn/", enabled: false}
+  - {name: 中创软件,     category: 甲, ats: iguopin, tier: 岗位级, url: "https://www.iguopin.com/company?id=10685703661307573", enabled: true}
+  - {name: 国子软件,     category: 甲, ats: generic, tier: 公众号, url: "", enabled: false}
+  - {name: 神思电子,     category: 甲, ats: zhilian, tier: 岗位级, url: "https://sdses.zhaopin.com/", enabled: true}
+  - {name: 积成电子,     category: 甲, ats: zhilian, tier: 岗位级, url: "https://ieslab.zhaopin.com/", enabled: true}
+  - {name: 兰剑智能,     category: 甲, ats: moka,    tier: 岗位级, url: "https://app.mokahr.com/campus-recruitment/lanjian", enabled: true}
+  - {name: 华天软件,     category: 甲, ats: generic, tier: 公告级, url: "https://www.hoteamsoft.com/", enabled: false}
+  - {name: 有人物联网,   category: 甲, ats: job51,   tier: 岗位级, url: "https://campus.51job.com/yrwl", enabled: true}
+  - {name: 山东能源集团, category: 甲, ats: generic, tier: 公告级, url: "https://zhaopin.shandong-energy.com/recruit", enabled: false}
+  - {name: 云鼎科技,     category: 甲, ats: generic, tier: 公告级, url: "https://zhaopin.shandong-energy.com/recruit", enabled: false}
+  - {name: 国网山东电力, category: 甲, ats: generic, tier: 公告级, url: "https://zhaopin.sgcc.com.cn/", enabled: false}
+  - {name: 中国电信山东, category: 甲, ats: generic, tier: 公告级, url: "https://hr.189.cn/", enabled: false}
+  - {name: 中国移动山东, category: 甲, ats: generic, tier: 岗位级, url: "https://job.10086.cn/", enabled: true}
+  - {name: 中国联通山东, category: 甲, ats: generic, tier: 公告级, url: "https://zhaopin.chinaunicom.cn/", enabled: false}
+  - {name: 恒丰银行,     category: 甲, ats: generic, tier: 岗位级, url: "https://career.hfbank.com.cn/xyzp", enabled: true}
+  - {name: 齐鲁银行,     category: 甲, ats: job51,   tier: 岗位级, url: "https://campus.51job.com/qlbank", enabled: true}
+  - {name: 中泰证券,     category: 甲, ats: hotjob,  tier: 岗位级, url: "https://zts.hotjob.cn/", enabled: true}
+  - {name: 中国重汽,     category: 甲, ats: generic, tier: 岗位级, url: "https://zhaopin.sinotruk.com/", enabled: true}
+  - {name: 济南二机床,   category: 甲, ats: generic, tier: 公告级, url: "https://www.jiermt.com/", enabled: false}
+  - {name: 济南轨道交通, category: 甲, ats: generic, tier: 公告级, url: "https://www.jngdjt.cn/", enabled: false}
+  - {name: 山东高速,     category: 甲, ats: zhilian, tier: 岗位级, url: "https://sdhsg.zhaopin.com/", enabled: true}
+  - {name: 邮储银行山东, category: 甲, ats: generic, tier: 公告级, url: "https://www.psbc.com/cn/rczp/", enabled: false}
+  - {name: 济南金融控股, category: 甲, ats: zhilian, tier: 公告级, url: "https://jncj.zhaopin.com/", enabled: false}
+  - {name: 歌尔股份,     category: 甲, ats: hotjob,  tier: 岗位级, url: "https://goertek.hotjob.cn/", enabled: true}
+  - {name: 海信集团,     category: 甲, ats: zhilian, tier: 岗位级, url: "https://hisense.zhaopin.com/", enabled: true}
+  - {name: 睿创微纳,     category: 甲, ats: generic, tier: 公告级, url: "https://www.raytrontek.com/", enabled: false}
+  - {name: 特锐德,       category: 甲, ats: job51,   tier: 岗位级, url: "https://campus.51job.com/tgood", enabled: true}
+  - {name: 智洋创新,     category: 甲, ats: beisen,  tier: 岗位级, url: "https://khidi.zhiye.com/", enabled: true}
+  - {name: 海尔卡奥斯,   category: 甲, ats: generic, tier: 岗位级, url: "https://careers.haier.net/", enabled: true}
+  - {name: 山东港口,     category: 甲, ats: job51,   tier: 岗位级, url: "https://campus.51job.com/sdgk", enabled: true}
+  - {name: 潍柴动力,     category: 甲, ats: beisen,  tier: 岗位级, url: "https://weichai.zhiye.com/", enabled: true}
+  - {name: 中车青岛四方, category: 甲, ats: generic, tier: 公告级, url: "https://zhaopin.crrcgc.cc/", enabled: false}
+  - {name: 青岛地铁,     category: 甲, ats: generic, tier: 公告级, url: "https://www.qd-metro.com/", enabled: false}
+
+  # ========== 乙类 · 全国头部大厂 ==========
+  - {name: 腾讯,         category: 乙, ats: generic, tier: 岗位级, url: "https://join.qq.com/post.html", enabled: true}
+  - {name: 阿里巴巴,     category: 乙, ats: generic, tier: 岗位级, url: "https://talent.alibaba.com/campus/home", enabled: true}
+  - {name: 字节跳动,     category: 乙, ats: generic, tier: 岗位级, url: "https://jobs.bytedance.com/campus/position", enabled: true}
+  - {name: 美团,         category: 乙, ats: generic, tier: 岗位级, url: "https://zhaopin.meituan.com/web/campus", enabled: true}
+  - {name: 百度,         category: 乙, ats: generic, tier: 岗位级, url: "https://talent.baidu.com/jobs/list", enabled: true}
+  - {name: 京东,         category: 乙, ats: generic, tier: 岗位级, url: "https://zhaopin.jd.com/web/job/job_info_list/3", enabled: true}
+  - {name: 拼多多,       category: 乙, ats: generic, tier: 岗位级, url: "https://careers.pinduoduo.com/campus", enabled: true}
+  - {name: 网易,         category: 乙, ats: generic, tier: 岗位级, url: "https://campus.163.com/app/listForWeb", enabled: true}
+  - {name: 快手,         category: 乙, ats: generic, tier: 岗位级, url: "https://zhaopin.kuaishou.cn/recruit/campus", enabled: true}
+  - {name: 滴滴,         category: 乙, ats: moka,    tier: 岗位级, url: "https://campus.didiglobal.com/", enabled: true}
+  - {name: 小红书,       category: 乙, ats: generic, tier: 岗位级, url: "https://job.xiaohongshu.com/campus", enabled: true}
+  - {name: 哔哩哔哩,     category: 乙, ats: generic, tier: 岗位级, url: "https://jobs.bilibili.com/campus/positions", enabled: true}
+  - {name: 360,          category: 乙, ats: generic, tier: 岗位级, url: "https://hr.360.cn/campus", enabled: true}
+  - {name: 华为,         category: 乙, ats: generic, tier: 岗位级, url: "https://career.huawei.com/reccampportal/portal5/campus-recruitment.html", enabled: true}
+  - {name: 小米,         category: 乙, ats: moka,    tier: 岗位级, url: "https://app.mokahr.com/campus_apply/xiaomi/286", enabled: true}
+  - {name: OPPO,         category: 乙, ats: generic, tier: 岗位级, url: "https://careers.oppo.com/university/oppo/campus", enabled: true}
+  - {name: vivo,         category: 乙, ats: moka,    tier: 岗位级, url: "https://app.mokahr.com/campus_apply/zjvivo/7617", enabled: true}
+  - {name: 荣耀,         category: 乙, ats: generic, tier: 岗位级, url: "https://www.honor.com/cn/about/joinus/", enabled: true}
+  - {name: 大疆,         category: 乙, ats: generic, tier: 岗位级, url: "https://we.dji.com/zh-CN/campus", enabled: true}
+  - {name: 中兴,         category: 乙, ats: moka,    tier: 岗位级, url: "https://app.mokahr.com/campus-recruitment/zte/46903", enabled: true}
+  - {name: 新华三,       category: 乙, ats: generic, tier: 岗位级, url: "https://career.h3c.com/campus/jobs", enabled: true}
+  - {name: 科大讯飞,     category: 乙, ats: generic, tier: 岗位级, url: "https://campus.iflytek.com/official-pc/delivery", enabled: true}
+  - {name: 商汤,         category: 乙, ats: generic, tier: 公告级, url: "https://www.sensetime.com/cn/join-us", enabled: false}
+  - {name: 旷视,         category: 乙, ats: generic, tier: 公告级, url: "https://megvii.com/join_us", enabled: false}
+  - {name: 智谱,         category: 乙, ats: feishu,  tier: 岗位级, url: "https://zhipu-ai.jobs.feishu.cn/zhipucampus", enabled: true}
+  - {name: 月之暗面,     category: 乙, ats: feishu,  tier: 岗位级, url: "https://moonshot.jobs.feishu.cn/campus", enabled: true}
+  - {name: MiniMax,      category: 乙, ats: generic, tier: 公告级, url: "https://minimaxi.com/careers", enabled: false}
+  - {name: 深度求索,     category: 乙, ats: generic, tier: 公众号, url: "", enabled: false}
+  - {name: 百川智能,     category: 乙, ats: generic, tier: 公众号, url: "", enabled: false}
+  - {name: 海康威视,     category: 乙, ats: generic, tier: 岗位级, url: "https://campushr.hikvision.com/", enabled: true}
+  - {name: 大华,         category: 乙, ats: beisen,  tier: 岗位级, url: "https://dahua.zhiye.com/", enabled: true}
+  - {name: 深信服,       category: 乙, ats: moka,    tier: 岗位级, url: "https://hr.sangfor.com/campuszp", enabled: true}
+  - {name: 奇安信,       category: 乙, ats: moka,    tier: 岗位级, url: "https://app.mokahr.com/campus-recruitment/qianxin/29182", enabled: true}
+  - {name: 安恒信息,     category: 乙, ats: moka,    tier: 岗位级, url: "https://app.mokahr.com/campus_apply/dbappsecurity/7835", enabled: true}
+  - {name: 寒武纪,       category: 乙, ats: moka,    tier: 岗位级, url: "https://app.mokahr.com/campus-recruitment/cambricon", enabled: true}
+  - {name: 地平线,       category: 乙, ats: moka,    tier: 岗位级, url: "https://app.mokahr.com/campus-recruitment/horizon", enabled: true}
+  - {name: 中芯国际,     category: 乙, ats: beisen,  tier: 岗位级, url: "https://smics.zhiye.com/", enabled: true}
+  - {name: 用友,         category: 乙, ats: hotjob,  tier: 岗位级, url: "https://www.hotjob.cn/wt/yonyou/web/index", enabled: true}
+  - {name: 金蝶,         category: 乙, ats: job51,   tier: 岗位级, url: "https://campus.51job.com/kingdee", enabled: true}
+  - {name: 星环科技,     category: 乙, ats: moka,    tier: 岗位级, url: "https://app.mokahr.com/campus_apply/transwarp/3196", enabled: true}
+  - {name: 比亚迪,       category: 乙, ats: generic, tier: 岗位级, url: "https://job.byd.com/portal/mobile/school-home", enabled: true}
+  - {name: 宁德时代,     category: 乙, ats: moka,    tier: 岗位级, url: "https://talent.catl.com/campus-recruitment/catlhr", enabled: true}
+  - {name: 理想汽车,     category: 乙, ats: feishu,  tier: 岗位级, url: "https://li.jobs.feishu.cn/campus", enabled: true}
+  - {name: 蔚来,         category: 乙, ats: feishu,  tier: 岗位级, url: "https://nio.jobs.feishu.cn/campus", enabled: true}
+  - {name: 小鹏汽车,     category: 乙, ats: feishu,  tier: 岗位级, url: "https://xiaopeng.jobs.feishu.cn/campus", enabled: true}
+  - {name: 米哈游,       category: 乙, ats: generic, tier: 岗位级, url: "https://campus.mihoyo.com/", enabled: true}
+  - {name: 莉莉丝,       category: 乙, ats: moka,    tier: 岗位级, url: "https://app.mokahr.com/campus_apply/lilith/7803", enabled: true}
+
+  # ========== 丙类 · 山东其他热门(多为公告级,默认不启用抓取) ==========
+  - {name: 中国铁路济南局, category: 丙, ats: generic, tier: 公告级, url: "https://rczp.china-railway.com.cn/", enabled: false}
+  - {name: 山东中烟,       category: 丙, ats: generic, tier: 公告级, url: "", enabled: false}
+  - {name: 山东黄金集团,   category: 丙, ats: zhilian, tier: 岗位级, url: "https://sdhjjt.zhaopin.com/", enabled: true}
+  - {name: 山东钢铁集团,   category: 丙, ats: generic, tier: 公告级, url: "", enabled: false}
+  - {name: 山东电工电气,   category: 丙, ats: job51,   tier: 岗位级, url: "https://campus.51job.com/sdee", enabled: true}
+  - {name: 鲁商集团,       category: 丙, ats: generic, tier: 公告级, url: "", enabled: false}
+  - {name: 水发集团,       category: 丙, ats: generic, tier: 公告级, url: "", enabled: false}
+  - {name: 山东国惠,       category: 丙, ats: generic, tier: 公告级, url: "", enabled: false}
+  - {name: 山东土地发展,   category: 丙, ats: generic, tier: 公告级, url: "", enabled: false}
+  - {name: 山东发展投资,   category: 丙, ats: generic, tier: 公告级, url: "", enabled: false}
+  - {name: 鲁信集团,       category: 丙, ats: generic, tier: 公告级, url: "", enabled: false}
+  - {name: 山东文旅集团,   category: 丙, ats: generic, tier: 公告级, url: "https://www.sdwenlv.com/", enabled: false}
+  - {name: 山东健康集团,   category: 丙, ats: generic, tier: 公告级, url: "", enabled: false}
+  - {name: 山东人才发展,   category: 丙, ats: generic, tier: 公告级, url: "", enabled: false}
+  - {name: 大众报业集团,   category: 丙, ats: generic, tier: 公告级, url: "", enabled: false}
+  - {name: 山东国际信托,   category: 丙, ats: generic, tier: 公告级, url: "", enabled: false}
+  - {name: 济南能源集团,   category: 丙, ats: generic, tier: 公告级, url: "", enabled: false}
+  - {name: 济南城投,       category: 丙, ats: generic, tier: 公告级, url: "", enabled: false}
+  - {name: 济南产发投资,   category: 丙, ats: generic, tier: 公告级, url: "https://www.jncfjt.com/", enabled: false}
+  - {name: 济南文旅,       category: 丙, ats: generic, tier: 公告级, url: "", enabled: false}
+  - {name: 济钢集团,       category: 丙, ats: generic, tier: 公告级, url: "", enabled: false}
+  - {name: 济南国资运营,   category: 丙, ats: generic, tier: 公告级, url: "", enabled: false}
+  - {name: 齐鲁制药,       category: 丙, ats: beisen,  tier: 岗位级, url: "https://qilu-pharma.zhiye.com/", enabled: true}
+  - {name: 华熙生物,       category: 丙, ats: hotjob,  tier: 岗位级, url: "https://bloomagebiotech.hotjob.cn/", enabled: true}
+  - {name: 圣泉集团,       category: 丙, ats: generic, tier: 公告级, url: "https://www.shengquan.com/", enabled: false}
+  - {name: 力诺集团,       category: 丙, ats: generic, tier: 公众号, url: "", enabled: false}
+  - {name: 九阳股份,       category: 丙, ats: moka,    tier: 岗位级, url: "https://campus.joyoung.com/", enabled: true}
+  - {name: 魏桥创业集团,   category: 丙, ats: generic, tier: 公告级, url: "https://www.weiqiaocy.com/", enabled: false}
+  - {name: 信发集团,       category: 丙, ats: generic, tier: 公众号, url: "", enabled: false}
+  - {name: 南山集团,       category: 丙, ats: generic, tier: 公告级, url: "https://www.nanshan.com.cn/", enabled: false}
+  - {name: 杰瑞股份,       category: 丙, ats: beisen,  tier: 岗位级, url: "https://jereh.zhiye.com/", enabled: true}
+  - {name: 威高集团,       category: 丙, ats: generic, tier: 公告级, url: "https://www.weigaogroup.com/", enabled: false}
+  - {name: 荣昌生物,       category: 丙, ats: generic, tier: 公告级, url: "", enabled: false}
+  - {name: 太阳纸业,       category: 丙, ats: generic, tier: 公告级, url: "", enabled: false}
+  - {name: 东明石化,       category: 丙, ats: generic, tier: 公告级, url: "https://www.dmsh.com.cn/", enabled: false}
+  - {name: 鲁南制药,       category: 丙, ats: generic, tier: 公告级, url: "", enabled: false}
+  - {name: 鲁花集团,       category: 丙, ats: generic, tier: 公众号, url: "", enabled: false}
+  - {name: 万华化学,       category: 丙, ats: generic, tier: 岗位级, url: "https://whchem.zhaopin.com/", enabled: true}
+  - {name: 青岛啤酒,       category: 丙, ats: beisen,  tier: 岗位级, url: "https://tsingtao.zhiye.com/", enabled: true}
+  - {name: 胜利油田,       category: 丙, ats: generic, tier: 公告级, url: "https://job.sinopec.com/", enabled: false}
+  - {name: 张裕集团,       category: 丙, ats: generic, tier: 公告级, url: "https://www.changyu.com.cn/", enabled: false}
+  - {name: 招金集团,       category: 丙, ats: generic, tier: 公众号, url: "", enabled: false}

@@ -1,0 +1,49 @@
+name: 秋招监控
+
+on:
+  schedule:
+    - cron: "0 0,12 * * *"   # UTC 00:00 / 12:00 = 北京 08:00 / 20:00,每 12 小时一轮
+  workflow_dispatch: {}        # 允许手动触发(测试用)
+
+# 需要写权限,以便把去重库 data/qiuzhao.db 提交回仓库(保持跨轮次状态)
+permissions:
+  contents: write
+
+concurrency:
+  group: qiuzhao-monitor
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 安装依赖
+        run: |
+          python -m pip install -U pip
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: 运行监控
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          MAIL_FROM_NAME: 秋招监控
+        run: python run.py
+
+      - name: 保存去重状态(提交回仓库)
+        run: |
+          git config user.name "qiuzhao-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -f data/qiuzhao.db || true
+          git commit -m "chore: update seen-jobs state [skip ci]" || echo "无变化,跳过提交"
+          git push || echo "push 跳过"
