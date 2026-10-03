@@ -12,11 +12,12 @@ from email.utils import formataddr
 from .models import Job
 
 CATEGORY_TITLE = {
+    "公告": "📢 校招公告 · 每日搜索整理",
     "甲": "甲类 · 山东重点关注",
     "乙": "乙类 · 全国头部大厂",
     "丙": "丙类 · 山东其他热门",
 }
-ORDER = ["甲", "乙", "丙"]
+ORDER = ["公告", "甲", "乙", "丙"]
 
 
 def _beijing_now() -> str:
@@ -72,7 +73,8 @@ def render_html(grouped: dict[str, list[Job]], new_count: int | None = None) -> 
 
 
 def send_email(grouped: dict[str, list[Job]], new_count: int | None = None,
-               health_warnings: list[str] | None = None) -> None:
+               health_warnings: list[str] | None = None,
+               not_found: list[str] | None = None) -> None:
     """通过 SMTP 发送。配置全部读环境变量,便于本地 .env 和 GitHub Actions Secrets 复用。"""
     host = os.environ["SMTP_HOST"]
     port = int(os.environ.get("SMTP_PORT", "465"))
@@ -84,6 +86,9 @@ def send_email(grouped: dict[str, list[Job]], new_count: int | None = None,
     if new_count is None:
         new_count = sum(1 for v in grouped.values() for j in v if j.is_new)
     html = render_html(grouped, new_count)
+    if not_found:
+        html += ("<hr><p style='color:#555'>🔎 今天没搜到公告、建议自己去官网看一眼：<br>"
+                 + "、".join(not_found) + "</p>")
     if health_warnings:
         html += "<hr><p style='color:#c60'>⚠ 抓取异常（可能需要修规则）：<br>" + \
                 "<br>".join(health_warnings) + "</p>"

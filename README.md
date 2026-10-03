@@ -26,6 +26,9 @@ python run.py                 # 正常一轮
 3. **Settings → Actions → General → Workflow permissions** 选 **Read and write**(让它能提交去重状态)。
 4. 完成。`Actions` 页可手动 **Run workflow** 测试;之后每天北京时间 08:00 / 20:00 自动跑。
 
+## 每日公告搜索
+`search_targets.yaml` 里的单位由 Claude 定时任务每天搜索一次「2027 校园招聘」公告,结果写入 `data/announcements.yaml` 并触发一次监控,公告和岗位合并在同一封邮件里(同一条公告只提醒一次)。
+
 ## 工作原理
 渲染页面(Playwright)→ 按 ATS 提取职位 → 关键词匹配 → SQLite 去重(只推一次)→ 分组邮件。
 首轮只建基线不打扰;某家连续抓取失败会在邮件里告警。

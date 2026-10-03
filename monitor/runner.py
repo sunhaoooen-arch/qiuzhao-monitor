@@ -7,6 +7,7 @@ from pathlib import Path
 
 import yaml
 
+from . import announcements
 from .fetcher import Renderer, fetch_company
 from .matcher import matches
 from .models import Job
@@ -53,6 +54,16 @@ def run(send: bool = True, only: str | None = None) -> dict[str, list[Job]]:
             finally:
                 page.close()
 
+    # 搜索整理的校招公告(定时搜索写入 data/announcements.yaml),和岗位一样去重
+    notices, not_found, searched_at = announcements.load()
+    if notices and not only:
+        new_notices = store.filter_new(notices)
+        for j in new_notices:
+            j.is_new = True
+        all_current.extend(notices)
+        new_jobs.extend(new_notices)
+        print(f"[公告] 共 {len(notices)} 条 / 新增 {len(new_notices)} 条（搜索于 {searched_at}）")
+
     # 邮件分组:同步「新增 + 原有在招」全部岗位,新增的带 🆕 标记
     grouped: dict[str, list[Job]] = {}
     for j in all_current:
@@ -68,7 +79,7 @@ def run(send: bool = True, only: str | None = None) -> dict[str, list[Job]]:
     # 仅当有「新增」或有抓取告警时才发(避免无变化打扰),但邮件正文同步全部在招岗位
     if send and (new_count > 0 or warnings):
         try:
-            send_email(grouped, new_count, warnings)
+            send_email(grouped, new_count, warnings, not_found)
             store.mark_notified(new_jobs)
             print(f"\n[邮件] 已发送，新增 {new_count}，当前在招 {len(all_current)}。")
         except Exception as e:  # noqa
