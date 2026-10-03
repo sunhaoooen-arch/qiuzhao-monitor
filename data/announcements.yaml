@@ -1,5 +1,5 @@
 # 每日搜索整理的校招公告(Claude 定时任务写入,监控运行时并入邮件)。链接优先用官网/高校就业网,其次是转载。
-searched_at: "2026-10-03 10:30"
+searched_at: "2026-10-04 08:05"
 announcements:
   # --- 央企·信息通信军工 ---
   - {company: 国家电网, title: "国家电网2027年提前批校园招聘（正式第一批公告通常10月下旬发布）", url: "https://www.sohu.com/a/1079183361_121124029", date: ""}
@@ -17,7 +17,7 @@ announcements:
   # --- 央企·能源与综合 ---
   - {company: 国家能源集团, title: "国家能源集团2027年度高校毕业生直招（10月25日全国统考）", url: "https://zhaopin.chnenergy.com.cn/annc/annclist?ggtype=1", date: "2026-09-04"}
   - {company: 中国石油, title: "中国石油2027年度校园招聘正式启动", url: "https://www.sohu.com/a/1073911647_100236100", date: ""}
-  - {company: 中国石化, title: "中国石化2027届秋招（各企业陆续发布）", url: "https://www.gwy.com/gqzp/zgsh/", date: ""}
+  - {company: 中国石化, title: "2027年中国石化招聘公告发布（10月28日截止报名）", url: "https://finance.sina.com.cn/wm/2026-09-24/doc-inisxtat5111953.shtml", date: "2026-09-24"}
   - {company: 中国华能, title: "2027年中国华能集团招聘公告发布", url: "https://www.sohu.com/a/1076426725_121124345", date: ""}
   - {company: 国家电投, title: "国家电投集团2027届校园招聘公告", url: "https://wh.bendibao.com/job/2026914/200596.shtm", date: "2026-09-14"}
   - {company: 招商局集团, title: "招商局集团2027届校园招聘（官网）", url: "https://cmhk.zhiye.com/custom/xiaoyuan?hideAll=true", date: ""}
@@ -37,6 +37,7 @@ announcements:
   # --- 山东省属 ---
   - {company: 山东能源集团, title: "山东能源集团2027年高校毕业生校园招聘公告", url: "https://www.fenbi.com/page/fenxiaozhaokaodetail/4/2894/468978705651712", date: ""}
   - {company: 山东重工集团, title: "潍柴集团2027届全球秋季校园招聘简章", url: "https://career.nankai.edu.cn/correcruit/content/id/109429.html", date: ""}
+  - {company: 山东发展投资控股, title: "山东发展投资控股集团权属企业校园招聘138人（面向2027届、2026届）", url: "https://www.gaoxiaojob.com/announcement/detail/416864.html", date: "2026-07-20"}
   - {company: 浪潮集团, title: "浪潮集团2027届校园招聘简章", url: "https://www.ncss.cn/student/jobs/2Bpz8ikb69SrBZfe9CX4r3/detail.html", date: ""}
   # --- 互联网大厂 ---
   - {company: 腾讯, title: "腾讯2027校园招聘启动（校招公告）", url: "https://join.qq.com/detail.html?id=288", date: "2026-08"}
@@ -52,7 +53,6 @@ announcements:
 not_found:
   - 山东高速集团
   - 鲁商集团
-  - 山东发展投资控股
   - 中航信
   - 中国铁路济南局
   - 山东中烟
