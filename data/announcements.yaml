@@ -1,0 +1,76 @@
+# 每日搜索整理的校招公告(Claude 定时任务写入,监控运行时并入邮件)。链接优先用官网/高校就业网,其次是转载。
+searched_at: "2026-10-03 10:30"
+announcements:
+  # --- 央企·信息通信军工 ---
+  - {company: 国家电网, title: "国家电网2027年提前批校园招聘（正式第一批公告通常10月下旬发布）", url: "https://www.sohu.com/a/1079183361_121124029", date: ""}
+  - {company: 中国移动, title: "中国移动2027校园招聘全面启动", url: "https://career.nankai.edu.cn/correcruit/content/id/118222.html", date: ""}
+  - {company: 中国电信, title: "中国电信集团有限公司2027年度校园招聘公告", url: "https://job.ncss.cn/student/jobs/QyG2RcGTr77WdKqKF5VHEY/detail.html", date: ""}
+  - {company: 中国联通, title: "中国联通2027校园招聘启动（含AI研发、网络技术、数据分析等岗位）", url: "https://news.qq.com/rain/a/20260827A0ANP000", date: "2026-08-27"}
+  - {company: 中国电科, title: "中国电科2027届校园招聘正式启动", url: "https://www.cetc.com.cn/zgdk/1593022/1592495/2127615/index.html", date: ""}
+  - {company: 中国电子CEC, title: "中国电子信息产业集团有限公司2027届校园招聘信息", url: "https://www.gaoxiaojob.com/announcement/detail/428981.html", date: ""}
+  - {company: 中国信科, title: "中国信科集团2027校园招聘启动", url: "https://www.gwy.com/gqzp/413628.html", date: ""}
+  - {company: 中国星网, title: "中国星网2027校园招聘（北森官网岗位列表）", url: "https://cscnrczp.zhiye.com/campus/jobs", date: ""}
+  - {company: 航天科工, title: "航天科工2027届校园招聘全面启动", url: "http://www.casic.com.cn/n27219851/n27219940/c31882489/content.html", date: ""}
+  - {company: 航天科技, title: "中国航天科技集团2027届校园招聘（国聘官方页）", url: "https://spacechina.iguopin.com/job-campus", date: ""}
+  - {company: 航空工业, title: "中国航空工业集团2027届校园招聘正式启动", url: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35842048/content.html", date: ""}
+  - {company: 中国通号, title: "中国通号2027届校园招聘全面启动", url: "https://www.dikongjie.com/11126.html", date: ""}
+  # --- 央企·能源与综合 ---
+  - {company: 国家能源集团, title: "国家能源集团2027年度高校毕业生直招（10月25日全国统考）", url: "https://zhaopin.chnenergy.com.cn/annc/annclist?ggtype=1", date: "2026-09-04"}
+  - {company: 中国石油, title: "中国石油2027年度校园招聘正式启动", url: "https://www.sohu.com/a/1073911647_100236100", date: ""}
+  - {company: 中国石化, title: "中国石化2027届秋招（各企业陆续发布）", url: "https://www.gwy.com/gqzp/zgsh/", date: ""}
+  - {company: 中国华能, title: "2027年中国华能集团招聘公告发布", url: "https://www.sohu.com/a/1076426725_121124345", date: ""}
+  - {company: 国家电投, title: "国家电投集团2027届校园招聘公告", url: "https://wh.bendibao.com/job/2026914/200596.shtm", date: "2026-09-14"}
+  - {company: 招商局集团, title: "招商局集团2027届校园招聘（官网）", url: "https://cmhk.zhiye.com/custom/xiaoyuan?hideAll=true", date: ""}
+  - {company: 华润集团, title: "华润集团2027届招聘公告（官网 runjob.crc.com.cn）", url: "https://www.sohu.com/a/1055000000_121124036", date: ""}
+  # --- 金融央企 ---
+  - {company: 工商银行, title: "2027年中国工商银行秋季校园招聘启事", url: "https://www.yinhangzhaopin.com/gsyh/2026-09-04/224671.htm", date: "2026-09-04"}
+  - {company: 农业银行, title: "2027年度中国农业银行校园招聘公告", url: "http://m.yinhangzhaopin.com/m/224695.htm", date: ""}
+  - {company: 中国银行, title: "中国银行股份有限公司2027年全球校园招聘公告", url: "https://www.boc.cn/aboutboc/bi4/202609/t20260903_25689311.html", date: "2026-09-03"}
+  - {company: 中国银行, title: "中国银行软件中心2027校园招聘（180人）", url: "https://www.shanganclaw.com/announcements/174298/", date: ""}
+  - {company: 建设银行, title: "中国建设银行境内分支机构2027年度校园招聘公告", url: "https://career.xujc.com/2026/0907/c3959a172592/page.htm", date: "2026-09-07"}
+  - {company: 交通银行, title: "交通银行2027年度校园招聘正式启动", url: "https://www.ncss.cn/student/jobs/5ZnTu8G4ujRTZgs2oAHJEH/detail.html", date: ""}
+  - {company: 邮储银行, title: "中国邮政储蓄银行2027校园招聘（智联官方页）", url: "https://psbc2027.zhaopin.com/jobs/index.html?id=10134769", date: ""}
+  - {company: 国家开发银行, title: "国家开发银行2027年校园招聘公告", url: "https://www.yinhangzhaopin.com/gjkfyh/2026-09-12/225634.htm", date: "2026-09-12"}
+  - {company: 中信集团, title: "中信集团总部2027年校园招聘全面启动（截至10月8日）", url: "https://www.ncss.cn/student/jobs/93AyEL4meoBjQ3ZraqnReo/detail.html", date: ""}
+  - {company: 中信集团, title: "中信银行2027年校园招聘公告", url: "https://career.nankai.edu.cn/correcruit/content/id/117681.html", date: ""}
+  - {company: 光大集团, title: "2027年中国光大银行秋季校园招聘启事", url: "https://www.yinhangzhaopin.com/guangdayh/2026-10-01/227007.htm", date: "2026-10-01"}
+  # --- 山东省属 ---
+  - {company: 山东能源集团, title: "山东能源集团2027年高校毕业生校园招聘公告", url: "https://www.fenbi.com/page/fenxiaozhaokaodetail/4/2894/468978705651712", date: ""}
+  - {company: 山东高速集团, title: "314人！山东高速集团公开招聘（济南人社转载）", url: "http://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_bb656103b7754ff586bafff71f7b4dce.html", date: ""}
+  - {company: 山东重工集团, title: "潍柴集团2027届全球秋季校园招聘简章", url: "https://career.nankai.edu.cn/correcruit/content/id/109429.html", date: ""}
+  - {company: 鲁商集团, title: "2026年「才聚齐鲁 成就未来」山东省商业集团有限公司公开招聘公告", url: "https://fypj.lushang.com.cn/zbzp/rczp/2026/0902/4031267.html", date: "2026-09-02"}
+  - {company: 山东发展投资控股, title: "山东发展投资控股集团权属企业2026年7月校园招聘138名工作人员公告", url: "https://www.gaoxiaojob.com/announcement/detail/416864.html", date: "2026-07"}
+  - {company: 浪潮集团, title: "浪潮集团2027届校园招聘简章", url: "https://www.ncss.cn/student/jobs/2Bpz8ikb69SrBZfe9CX4r3/detail.html", date: ""}
+  # --- 互联网大厂 ---
+  - {company: 腾讯, title: "腾讯2027校园招聘启动（校招公告）", url: "https://join.qq.com/detail.html?id=288", date: "2026-08"}
+  - {company: 阿里巴巴, title: "阿里巴巴2027届应届生招聘全球启动（AI岗位占80%）", url: "https://www.guancha.cn/economy/2026_08_05_826292.shtml", date: "2026-08-05"}
+  - {company: 百度, title: "百度2027届校招正式启动（AI岗位占比超90%）", url: "https://m.thepaper.cn/newsDetail_forward_33555875", date: ""}
+  - {company: 华为, title: "华为启动2027届应届生招聘（研发、销售、财经等）", url: "https://finance.sina.com.cn/wm/2026-08-15/doc-ininkrwq1862242.shtml", date: "2026-08-15"}
+  - {company: 小米, title: "小米2027届全球校园招聘启动（AI岗位需求增长50%）", url: "https://www.jiemian.com/article/14906461.html", date: ""}
+  - {company: 网易, title: "网易游戏雷火2027届秋季校园招聘全球开启", url: "https://career.nankai.edu.cn/correcruit/content/id/117003.html", date: ""}
+  - {company: 快手, title: "快手启动2027届秋季校园招聘", url: "https://finance.sina.com.cn/tech/roll/2026-08-12/doc-ininaezk5250932.shtml", date: "2026-08-12"}
+  - {company: 拼多多, title: "拼多多2027届校招正式批启动（7大职类3000+人）", url: "https://news.qq.com/rain/a/20260902A089SY00", date: "2026-09-02"}
+  - {company: 京东, title: "京东全面启动2027校园招聘", url: "https://www.jiemian.com/article/14864754.html", date: ""}
+  - {company: 美团, title: "美团2027届校园招聘启动（新华网）", url: "https://www.news.cn/tech/20260818/b4bedb40261845379384a1a6565da3cc/c.html", date: "2026-08-18"}
+not_found:
+  - 中航信
+  - 中国铁路济南局
+  - 山东中烟
+  - 山东港口集团
+  - 山东钢铁集团
+  - 山东黄金集团
+  - 华鲁控股
+  - 鲁信集团
+  - 山东国惠
+  - 山东海洋集团
+  - 水发集团
+  - 山东铁投
+  - 山东文旅集团
+  - 山东健康集团
+  - 山东电工电气
+  - 山东财金集团
+  - 山东人才发展集团
+  - 济南城投
+  - 济南高新控股
+  - 青岛城投
+  - 青岛国信
