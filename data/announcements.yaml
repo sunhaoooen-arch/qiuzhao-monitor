@@ -36,10 +36,7 @@ announcements:
   - {company: 光大集团, title: "2027年中国光大银行秋季校园招聘启事", url: "https://www.yinhangzhaopin.com/guangdayh/2026-10-01/227007.htm", date: "2026-10-01"}
   # --- 山东省属 ---
   - {company: 山东能源集团, title: "山东能源集团2027年高校毕业生校园招聘公告", url: "https://www.fenbi.com/page/fenxiaozhaokaodetail/4/2894/468978705651712", date: ""}
-  - {company: 山东高速集团, title: "314人！山东高速集团公开招聘（济南人社转载）", url: "http://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_bb656103b7754ff586bafff71f7b4dce.html", date: ""}
   - {company: 山东重工集团, title: "潍柴集团2027届全球秋季校园招聘简章", url: "https://career.nankai.edu.cn/correcruit/content/id/109429.html", date: ""}
-  - {company: 鲁商集团, title: "2026年「才聚齐鲁 成就未来」山东省商业集团有限公司公开招聘公告", url: "https://fypj.lushang.com.cn/zbzp/rczp/2026/0902/4031267.html", date: "2026-09-02"}
-  - {company: 山东发展投资控股, title: "山东发展投资控股集团权属企业2026年7月校园招聘138名工作人员公告", url: "https://www.gaoxiaojob.com/announcement/detail/416864.html", date: "2026-07"}
   - {company: 浪潮集团, title: "浪潮集团2027届校园招聘简章", url: "https://www.ncss.cn/student/jobs/2Bpz8ikb69SrBZfe9CX4r3/detail.html", date: ""}
   # --- 互联网大厂 ---
   - {company: 腾讯, title: "腾讯2027校园招聘启动（校招公告）", url: "https://join.qq.com/detail.html?id=288", date: "2026-08"}
@@ -53,6 +50,9 @@ announcements:
   - {company: 京东, title: "京东全面启动2027校园招聘", url: "https://www.jiemian.com/article/14864754.html", date: ""}
   - {company: 美团, title: "美团2027届校园招聘启动（新华网）", url: "https://www.news.cn/tech/20260818/b4bedb40261845379384a1a6565da3cc/c.html", date: "2026-08-18"}
 not_found:
+  - 山东高速集团
+  - 鲁商集团
+  - 山东发展投资控股
   - 中航信
   - 中国铁路济南局
   - 山东中烟
