@@ -1,5 +1,5 @@
 # 每日搜索整理的校招公告(Claude 定时任务写入,监控运行时并入邮件)。链接优先用官网/高校就业网,其次是转载。
-searched_at: "2026-10-04 08:05"
+searched_at: "2026-10-05 08:30"
 announcements:
   # --- 央企·信息通信军工 ---
   - {company: 国家电网, title: "国家电网2027年提前批校园招聘（正式第一批公告通常10月下旬发布）", url: "https://www.sohu.com/a/1079183361_121124029", date: ""}
@@ -28,6 +28,7 @@ announcements:
   - {company: 中国银行, title: "中国银行股份有限公司2027年全球校园招聘公告", url: "https://www.boc.cn/aboutboc/bi4/202609/t20260903_25689311.html", date: "2026-09-03"}
   - {company: 中国银行, title: "中国银行软件中心2027校园招聘（180人）", url: "https://www.shanganclaw.com/announcements/174298/", date: ""}
   - {company: 建设银行, title: "中国建设银行境内分支机构2027年度校园招聘公告", url: "https://career.xujc.com/2026/0907/c3959a172592/page.htm", date: "2026-09-07"}
+  - {company: 建设银行, title: "中国建设银行总部2027年校园招聘（10月8日截止）", url: "https://career.nankai.edu.cn/correcruit/content/id/118591.html", date: "2026-09-04"}
   - {company: 交通银行, title: "交通银行2027年度校园招聘正式启动", url: "https://www.ncss.cn/student/jobs/5ZnTu8G4ujRTZgs2oAHJEH/detail.html", date: ""}
   - {company: 邮储银行, title: "中国邮政储蓄银行2027校园招聘（智联官方页）", url: "https://psbc2027.zhaopin.com/jobs/index.html?id=10134769", date: ""}
   - {company: 国家开发银行, title: "国家开发银行2027年校园招聘公告", url: "https://www.yinhangzhaopin.com/gjkfyh/2026-09-12/225634.htm", date: "2026-09-12"}
