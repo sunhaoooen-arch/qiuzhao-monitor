@@ -1,9 +1,12 @@
 # 每日搜索整理的校招公告(Claude 定时任务写入,监控运行时并入邮件)。链接优先用官网/高校就业网,其次是转载。
-searched_at: "2026-10-06 08:20"
+searched_at: "2026-10-07 08:20"
 announcements:
   # --- 央企·信息通信军工 ---
   - {company: 国家电网, title: "国家电网2027年提前批校园招聘（正式第一批公告通常10月下旬发布）", url: "https://www.sohu.com/a/1079183361_121124029", date: ""}
+  - {company: 国家电网, title: "国网新疆电力2027年高校毕业生校园招聘（提前批）", url: "https://www.wondercv.com/xiaozhao/state-grid-xinjiang-2027-campus-recruitment-17393-4fb1b7/", date: "2026-10-05"}
+  - {company: 国家电网, title: "国网内蒙古东部电力提前批（2027届，截止10月30日）", url: "https://www.wondercv.com/xiaozhao/state-grid-inner-mongolia-east-tongliao-autumn-17397-1cd8ea/", date: "2026-10-05"}
   - {company: 中国移动, title: "中国移动2027校园招聘全面启动", url: "https://career.nankai.edu.cn/correcruit/content/id/118222.html", date: ""}
+  - {company: 中国移动, title: "中国移动成都产业研究院2027届秋招（金种子计划）", url: "https://www.wondercv.com/xiaozhao/china-mobile-chengdu-2027-campus-17405-c8e659/", date: "2026-10-05"}
   - {company: 中国电信, title: "中国电信集团有限公司2027年度校园招聘公告", url: "https://job.ncss.cn/student/jobs/QyG2RcGTr77WdKqKF5VHEY/detail.html", date: ""}
   - {company: 中国联通, title: "中国联通2027校园招聘启动（含AI研发、网络技术、数据分析等岗位）", url: "https://news.qq.com/rain/a/20260827A0ANP000", date: "2026-08-27"}
   - {company: 中国电科, title: "中国电科2027届校园招聘正式启动", url: "https://www.cetc.com.cn/zgdk/1593022/1592495/2127615/index.html", date: ""}
