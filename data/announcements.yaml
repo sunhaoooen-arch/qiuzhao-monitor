@@ -1,5 +1,5 @@
 # 每日搜索整理的校招公告(Claude 定时任务写入,监控运行时并入邮件)。链接优先用官网/高校就业网,其次是转载。
-searched_at: "2026-10-09 08:30"
+searched_at: "2026-10-10 08:20"
 announcements:
   # --- 央企·信息通信军工 ---
   - {company: 国家电网, title: "国家电网2027年提前批校园招聘（正式第一批公告通常10月下旬发布）", url: "https://www.sohu.com/a/1079183361_121124029", date: ""}
@@ -9,6 +9,7 @@ announcements:
   - {company: 中国移动, title: "中国移动成都产业研究院2027届秋招（金种子计划）", url: "https://www.wondercv.com/xiaozhao/china-mobile-chengdu-2027-campus-17405-c8e659/", date: "2026-10-05"}
   - {company: 中国电信, title: "中国电信集团有限公司2027年度校园招聘公告", url: "https://job.ncss.cn/student/jobs/QyG2RcGTr77WdKqKF5VHEY/detail.html", date: ""}
   - {company: 中国电信, title: "中通服（中国电信控股）旗下中通信息服务、广东南方电信规划咨询设计院2027年度校园招聘（截至11月5日）", url: "https://campus.niuqizp.com/schedule-78UlNanaC.html", date: "2026-10-08"}
+  - {company: 中国电信, title: "中国电信数据发展中心（天翼支付）2027届校园招聘公告", url: "https://www.sdrcjy.com.cn/index.php?a=shows&catid=65&id=61582", date: "2026-10-08"}
   - {company: 中国联通, title: "中国联通2027校园招聘启动（含AI研发、网络技术、数据分析等岗位）", url: "https://news.qq.com/rain/a/20260827A0ANP000", date: "2026-08-27"}
   - {company: 中国电科, title: "中国电科2027届校园招聘正式启动", url: "https://www.cetc.com.cn/zgdk/1593022/1592495/2127615/index.html", date: ""}
   - {company: 中国电科, title: "中网华通（中国电科所属）2027届校园招聘", url: "https://www.wondercv.com/xiaozhao/cetc-zhongwang-huatong-2027-campus-recruitment-17350-25ed37/", date: "2026-10-04"}
@@ -18,6 +19,7 @@ announcements:
   - {company: 航天科工, title: "航天科工2027届校园招聘全面启动", url: "http://www.casic.com.cn/n27219851/n27219940/c31882489/content.html", date: ""}
   - {company: 航天科技, title: "中国航天科技集团2027届校园招聘（国聘官方页）", url: "https://spacechina.iguopin.com/job-campus", date: ""}
   - {company: 航空工业, title: "中国航空工业集团2027届校园招聘正式启动", url: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35842048/content.html", date: ""}
+  - {company: 航空工业, title: "航空工业第一飞机设计研究院2027届校园招聘公告", url: "https://www.sdrcjy.com.cn/index.php?a=shows&catid=65&id=61589", date: "2026-10-09"}
   - {company: 中国通号, title: "中国通号2027届校园招聘全面启动", url: "https://www.dikongjie.com/11126.html", date: ""}
   # --- 央企·能源与综合 ---
   - {company: 国家能源集团, title: "国家能源集团2027年度高校毕业生直招（10月25日全国统考）", url: "https://zhaopin.chnenergy.com.cn/annc/annclist?ggtype=1", date: "2026-09-04"}
@@ -43,6 +45,7 @@ announcements:
   # --- 山东省属 ---
   - {company: 山东能源集团, title: "山东能源集团2027年高校毕业生校园招聘公告", url: "https://www.fenbi.com/page/fenxiaozhaokaodetail/4/2894/468978705651712", date: ""}
   - {company: 山东重工集团, title: "潍柴集团2027届全球秋季校园招聘简章", url: "https://career.nankai.edu.cn/correcruit/content/id/109429.html", date: ""}
+  - {company: 山东重工集团, title: "潍柴集团2027届全球校园招聘宣讲行程（10月9日至13日）", url: "https://campus.niuqizp.com/schedule-7kYyNCLnt.html", date: "2026-10-09"}
   - {company: 山东发展投资控股, title: "山东发展投资控股集团权属企业校园招聘138人（面向2027届、2026届）", url: "https://www.gaoxiaojob.com/announcement/detail/416864.html", date: "2026-07-20"}
   - {company: 浪潮集团, title: "浪潮集团2027届校园招聘简章", url: "https://www.ncss.cn/student/jobs/2Bpz8ikb69SrBZfe9CX4r3/detail.html", date: ""}
   - {company: 山东健康集团, title: "山东健康集团2027届秋季校园招聘", url: "https://www.sdrcjy.com.cn/index.php?a=shows&catid=66&id=61569", date: "2026-10-05"}
