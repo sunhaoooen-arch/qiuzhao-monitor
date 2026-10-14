@@ -1,5 +1,5 @@
 # 每日搜索整理的校招公告(Claude 定时任务写入,监控运行时并入邮件)。链接优先用官网/高校就业网,其次是转载。
-searched_at: "2026-10-13 08:35"
+searched_at: "2026-10-14 08:35"
 announcements:
   # --- 央企·信息通信军工 ---
   - {company: 国家电网, title: "国家电网2027年提前批校园招聘（正式第一批公告通常10月下旬发布）", url: "https://www.sohu.com/a/1079183361_121124029", date: ""}
@@ -22,6 +22,7 @@ announcements:
   - {company: 航天科技, title: "中国航天科技集团2027届校园招聘（国聘官方页）", url: "https://spacechina.iguopin.com/job-campus", date: ""}
   - {company: 航空工业, title: "中国航空工业集团2027届校园招聘正式启动", url: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35842048/content.html", date: ""}
   - {company: 航空工业, title: "航空工业第一飞机设计研究院2027届校园招聘公告", url: "https://www.sdrcjy.com.cn/index.php?a=shows&catid=65&id=61589", date: "2026-10-09"}
+  - {company: 航空工业, title: "航空工业济南特种结构研究所2027届校园招聘公告", url: "https://www.sdrcjy.com.cn/index.php?a=shows&catid=66&id=61632", date: "2026-10-13"}
   - {company: 中国通号, title: "中国通号2027届校园招聘全面启动", url: "https://www.dikongjie.com/11126.html", date: ""}
   # --- 央企·能源与综合 ---
   - {company: 国家能源集团, title: "国家能源集团2027年度高校毕业生直招（10月25日全国统考）", url: "https://zhaopin.chnenergy.com.cn/annc/annclist?ggtype=1", date: "2026-09-04"}
@@ -65,6 +66,7 @@ announcements:
   - {company: 拼多多, title: "拼多多2027届校招正式批启动（7大职类3000+人）", url: "https://news.qq.com/rain/a/20260902A089SY00", date: "2026-09-02"}
   - {company: 京东, title: "京东全面启动2027校园招聘", url: "https://www.jiemian.com/article/14864754.html", date: ""}
   - {company: 美团, title: "美团2027届校园招聘启动（新华网）", url: "https://www.news.cn/tech/20260818/b4bedb40261845379384a1a6565da3cc/c.html", date: "2026-08-18"}
+  - {company: 美团, title: "【实习】美团 Keeta 培训/质检实习生（2027校招）", url: "https://campus.niuqizp.com/job-vylN5ZtLZ.html", date: "2026-10-13"}
   - {company: 字节跳动, title: "【实习】懂车帝2027届实习（含转正实习）", url: "https://campus.niuqizp.com/schedule-7yYsNCLt5.html", date: "2026-10-09"}
 not_found:
   - 山东高速集团
