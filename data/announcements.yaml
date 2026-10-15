@@ -1,5 +1,5 @@
 # 每日搜索整理的校招公告(Claude 定时任务写入,监控运行时并入邮件)。链接优先用官网/高校就业网,其次是转载。
-searched_at: "2026-10-14 08:35"
+searched_at: "2026-10-15 08:35"
 announcements:
   # --- 央企·信息通信军工 ---
   - {company: 国家电网, title: "国家电网2027年提前批校园招聘（正式第一批公告通常10月下旬发布）", url: "https://www.sohu.com/a/1079183361_121124029", date: ""}
@@ -30,6 +30,7 @@ announcements:
   - {company: 中国石化, title: "2027年中国石化招聘公告发布（10月28日截止报名）", url: "https://finance.sina.com.cn/wm/2026-09-24/doc-inisxtat5111953.shtml", date: "2026-09-24"}
   - {company: 中国石化, title: "中国石化荆门石化公司2027年校园招聘", url: "https://www.sohu.com/a/1086419638_121124212", date: "2026-10-11"}
   - {company: 中国石化, title: "中石化（上海）石油化工研究院2027届校招", url: "https://campus.niuqizp.com/schedule-7l8kNCtaL.html", date: "2026-10-11"}
+  - {company: 中国石化, title: "中石化中原石油工程设计公司2027届校园招聘（含数字化/智能化技术岗）", url: "https://campus.niuqizp.com/schedule-7YyYNCa5n.html", date: "2026-10-13"}
   - {company: 中国华能, title: "2027年中国华能集团招聘公告发布", url: "https://www.sohu.com/a/1076426725_121124345", date: ""}
   - {company: 国家电投, title: "国家电投集团2027届校园招聘公告", url: "https://wh.bendibao.com/job/2026914/200596.shtm", date: "2026-09-14"}
   - {company: 招商局集团, title: "招商局集团2027届校园招聘（官网）", url: "https://cmhk.zhiye.com/custom/xiaoyuan?hideAll=true", date: ""}
@@ -47,6 +48,7 @@ announcements:
   - {company: 中信集团, title: "中信集团总部2027年校园招聘全面启动（截至10月8日）", url: "https://www.ncss.cn/student/jobs/93AyEL4meoBjQ3ZraqnReo/detail.html", date: ""}
   - {company: 中信集团, title: "中信银行2027年校园招聘公告", url: "https://career.nankai.edu.cn/correcruit/content/id/117681.html", date: ""}
   - {company: 光大集团, title: "2027年中国光大银行秋季校园招聘启事", url: "https://www.yinhangzhaopin.com/guangdayh/2026-10-01/227007.htm", date: "2026-10-01"}
+  - {company: 民生银行, title: "民生科技（民生银行科技子公司）2027届校园招聘及实习生招聘", url: "https://campus.niuqizp.com/schedule-7rwlNCC5t.html", date: "2026-10-13"}
   # --- 山东省属 ---
   - {company: 山东能源集团, title: "山东能源集团2027年高校毕业生校园招聘公告", url: "https://www.fenbi.com/page/fenxiaozhaokaodetail/4/2894/468978705651712", date: ""}
   - {company: 山东重工集团, title: "潍柴集团2027届全球秋季校园招聘简章", url: "https://career.nankai.edu.cn/correcruit/content/id/109429.html", date: ""}
