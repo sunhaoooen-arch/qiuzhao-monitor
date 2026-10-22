@@ -1,5 +1,5 @@
 # 每日搜索整理的校招公告(Claude 定时任务写入,监控运行时并入邮件)。链接优先用官网/高校就业网,其次是转载。
-searched_at: "2026-10-21 08:30"
+searched_at: "2026-10-22 08:30"
 announcements:
   # --- 央企·信息通信军工 ---
   - {company: 国家电网, title: "国家电网2027年提前批校园招聘（正式第一批公告通常10月下旬发布）", url: "https://www.sohu.com/a/1079183361_121124029", date: ""}
@@ -22,10 +22,12 @@ announcements:
   - {company: 中国星网, title: "中国星网2027校园招聘（北森官网岗位列表）", url: "https://cscnrczp.zhiye.com/campus/jobs", date: ""}
   - {company: 航天科工, title: "航天科工2027届校园招聘全面启动", url: "http://www.casic.com.cn/n27219851/n27219940/c31882489/content.html", date: ""}
   - {company: 航天科工, title: "中国航天科工二院二〇七所2027届秋季校园招聘", url: "https://campus.niuqizp.com/schedule-7krmNnNtL.html", date: "2026-10-17"}
+  - {company: 航天科工, title: "航天三江红林公司2027届校园招聘", url: "https://campus.niuqizp.com/schedule-7smUNnzNn.html", date: "2026-10-20"}
   - {company: 航天科技, title: "中国航天科技集团2027届校园招聘（国聘官方页）", url: "https://spacechina.iguopin.com/job-campus", date: ""}
   - {company: 航空工业, title: "中国航空工业集团2027届校园招聘正式启动", url: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35842048/content.html", date: ""}
   - {company: 航空工业, title: "航空工业第一飞机设计研究院2027届校园招聘公告", url: "https://www.sdrcjy.com.cn/index.php?a=shows&catid=65&id=61589", date: "2026-10-09"}
   - {company: 航空工业, title: "航空工业济南特种结构研究所2027届校园招聘公告", url: "https://www.sdrcjy.com.cn/index.php?a=shows&catid=66&id=61632", date: "2026-10-13"}
+  - {company: 航空工业, title: "航空工业金航数码2027届校园招聘", url: "https://campus.niuqizp.com/schedule-7YmsNnzMa.html", date: "2026-10-21"}
   - {company: 中国通号, title: "中国通号2027届校园招聘全面启动", url: "https://www.dikongjie.com/11126.html", date: ""}
   # --- 央企·能源与综合 ---
   - {company: 国家能源集团, title: "国家能源集团2027年度高校毕业生直招（10月25日全国统考）", url: "https://zhaopin.chnenergy.com.cn/annc/annclist?ggtype=1", date: "2026-09-04"}
@@ -96,6 +98,9 @@ announcements:
   - {company: 小红书, title: "【实习】小红书2027届校招 Lab 1327 产品设计、研发", url: "https://campus.niuqizp.com/schedule-7rYsNnZtt.html", date: "2026-10-20"}
   - {company: 中国建材, title: "新疆天山水泥有限责任公司2027年校园招聘", url: "https://campus.niuqizp.com/schedule-7wwkNnZLL.html", date: "2026-10-20"}
   - {company: 厦门港务控股集团, title: "厦门港务控股集团2027年秋季校园招聘", url: "https://campus.niuqizp.com/schedule-7swlNnZLn.html", date: "2026-10-20"}
+  - {company: 黄河古贤水利枢纽, title: "黄河古贤水利枢纽有限公司2027年度公开招聘高校毕业生（国企，面向2027届）", url: "https://campus.niuqizp.com/schedule-7s88NnaNC.html", date: "2026-10-21"}
+  - {company: 中兴通讯, title: "【实习】中兴通讯西安、长沙等多个基地27年实习生招聘（研发/测试/技术支持）", url: "https://campus.niuqizp.com/schedule-7YU8NnaNt.html", date: "2026-10-21"}
+  - {company: 360集团, title: "360集团2027全球校园招聘", url: "https://campus.niuqizp.com/schedule-7mmrNna5N.html", date: "2026-10-21"}
 not_found:
   - 山东高速集团
   - 鲁商集团
