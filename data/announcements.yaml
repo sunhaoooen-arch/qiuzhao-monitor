@@ -1,5 +1,5 @@
 # 每日搜索整理的校招公告(Claude 定时任务写入,监控运行时并入邮件)。链接优先用官网/高校就业网,其次是转载。
-searched_at: "2026-10-24 08:30"
+searched_at: "2026-10-25 08:30"
 announcements:
   # --- 央企·信息通信军工 ---
   - {company: 国家电网, title: "国家电网2027年提前批校园招聘（正式第一批公告通常10月下旬发布）", url: "https://www.sohu.com/a/1079183361_121124029", date: ""}
@@ -116,6 +116,10 @@ announcements:
   - {company: 南方电网, title: "南方电网科学研究院2027年校园招聘公告（秋招批）", url: "https://campus.niuqizp.com/schedule-7yskNnCzZ.html", date: "2026-10-23"}
   - {company: 天津工程咨询, title: "天津工程咨询有限公司2027届校园招聘", url: "https://campus.niuqizp.com/schedule-78lkNnCaN.html", date: "2026-10-23"}
   - {company: 谷歌, title: "【实习】Google谷歌实习生计划岗位申请开启", url: "https://campus.niuqizp.com/schedule-7U8rNnCZt.html", date: "2026-10-23"}
+  - {company: 中化集团, title: "中化数智2027届秋季校园招聘", url: "https://campus.niuqizp.com/schedule-7rs8NnnCt.html", date: "2026-10-25"}
+  - {company: 中国电建, title: "中国电建水电水利工程院（海洋工程院）及杭州大坝中心2027年校园招聘", url: "https://campus.niuqizp.com/schedule-7Y88NnnCz.html", date: "2026-10-25"}
+  - {company: 中国化学, title: "中国化学工程第七建设有限公司2027全球校园招聘", url: "https://campus.niuqizp.com/schedule-7mYrNnnnM.html", date: "2026-10-24"}
+  - {company: 首都信息发展, title: "首都信息发展股份有限公司2027届校园招聘", url: "https://campus.niuqizp.com/schedule-7rkrNnnna.html", date: "2026-10-24"}
 not_found:
   - 山东高速集团
   - 鲁商集团
