@@ -1,5 +1,5 @@
 # 每日搜索整理的校招公告(Claude 定时任务写入,监控运行时并入邮件)。链接优先用官网/高校就业网,其次是转载。
-searched_at: "2026-10-25 08:30"
+searched_at: "2026-10-26 08:30"
 announcements:
   # --- 央企·信息通信军工 ---
   - {company: 国家电网, title: "国家电网2027年提前批校园招聘（正式第一批公告通常10月下旬发布）", url: "https://www.sohu.com/a/1079183361_121124029", date: ""}
@@ -106,7 +106,9 @@ announcements:
   - {company: 360集团, title: "360集团2027全球校园招聘", url: "https://campus.niuqizp.com/schedule-7mmrNna5N.html", date: "2026-10-21"}
   - {company: 中航集团, title: "中航集团（国航）2027届校园招聘", url: "https://campus.niuqizp.com/schedule-78mkNnaan.html", date: "2026-10-22"}
   - {company: 中航集团, title: "中国国际货运航空（国货航）2027届校园招聘", url: "https://campus.niuqizp.com/schedule-7lsUNnaaM.html", date: "2026-10-22"}
+  - {company: 中航集团, title: "国航股份广东分公司2027届秋季校园招聘", url: "https://campus.niuqizp.com/schedule-78lrNnMLM.html", date: "2026-10-25"}
   - {company: 浙江省能源集团, title: "浙江省新能源投资集团（浙江新能）2027年校园招聘", url: "https://campus.niuqizp.com/schedule-7ksmNnazC.html", date: "2026-10-22"}
+  - {company: 浙江省能源集团, title: "浙能燃料有限公司2027年校园招聘", url: "https://campus.niuqizp.com/schedule-7yUrNnM5N.html", date: "2026-10-25"}
   - {company: 湖南银行, title: "湖南银行2027届全球校园招聘", url: "https://campus.niuqizp.com/schedule-7kylNnC5L.html", date: "2026-10-23"}
   - {company: 国机集团, title: "国机集团总部及下属企业青蓝计划2027届管培生招聘", url: "https://campus.niuqizp.com/schedule-7ymlNnC5N.html", date: "2026-10-23"}
   - {company: 广东省铁投集团, title: "广东省铁投集团2027年校园招聘（城际轨道交通运营）", url: "https://campus.niuqizp.com/schedule-7ly8NnCNN.html", date: "2026-10-23"}
@@ -120,6 +122,9 @@ announcements:
   - {company: 中国电建, title: "中国电建水电水利工程院（海洋工程院）及杭州大坝中心2027年校园招聘", url: "https://campus.niuqizp.com/schedule-7Y88NnnCz.html", date: "2026-10-25"}
   - {company: 中国化学, title: "中国化学工程第七建设有限公司2027全球校园招聘", url: "https://campus.niuqizp.com/schedule-7mYrNnnnM.html", date: "2026-10-24"}
   - {company: 首都信息发展, title: "首都信息发展股份有限公司2027届校园招聘", url: "https://campus.niuqizp.com/schedule-7rkrNnnna.html", date: "2026-10-24"}
+  - {company: 山东黄金集团, title: "山金国际黄金2027届秋季校园招聘（山东黄金控股）", url: "https://campus.niuqizp.com/schedule-7kkkNnM5L.html", date: "2026-10-25"}
+  - {company: 保利集团, title: "保利发展河北公司2027届校园招聘", url: "https://campus.niuqizp.com/schedule-7rUrNnMLL.html", date: "2026-10-25"}
+  - {company: 深圳港集团, title: "深圳港集团2027届海动力管培生招聘", url: "https://campus.niuqizp.com/schedule-7UUrNnMLZ.html", date: "2026-10-24"}
 not_found:
   - 山东高速集团
   - 鲁商集团
@@ -128,7 +133,6 @@ not_found:
   - 山东中烟
   - 山东港口集团
   - 山东钢铁集团
-  - 山东黄金集团
   - 华鲁控股
   - 鲁信集团
   - 山东国惠
