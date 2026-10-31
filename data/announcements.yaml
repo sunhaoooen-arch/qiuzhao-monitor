@@ -1,5 +1,5 @@
 # 每日搜索整理的校招公告(Claude 定时任务写入,监控运行时并入邮件)。链接优先用官网/高校就业网,其次是转载。
-searched_at: "2026-10-30 08:30"
+searched_at: "2026-10-31 08:30"
 announcements:
   # --- 央企·信息通信军工 ---
   - {company: 国家电网, title: "国家电网2027年提前批校园招聘（正式第一批公告通常10月下旬发布）", url: "https://www.sohu.com/a/1079183361_121124029", date: ""}
@@ -39,6 +39,7 @@ announcements:
   - {company: 中国石化, title: "中石化（上海）石油化工研究院2027届校招", url: "https://campus.niuqizp.com/schedule-7l8kNCtaL.html", date: "2026-10-11"}
   - {company: 中国石化, title: "中石化中原石油工程设计公司2027届校园招聘（含数字化/智能化技术岗）", url: "https://campus.niuqizp.com/schedule-7YyYNCa5n.html", date: "2026-10-13"}
   - {company: 中国石化, title: "中石化经纬有限公司2027校园招聘（人工智能岗/装备研发制造岗/综合管理岗，青岛）", url: "https://campus.niuqizp.com/job-vkmNNLaat.html", date: "2026-10-18"}
+  - {company: 中国石化, title: "石化盈科信息技术有限责任公司2027校园招聘", url: "https://campus.niuqizp.com/schedule-7YmYNMNat.html", date: "2026-10-30"}
   - {company: 中国华能, title: "2027年中国华能集团招聘公告发布", url: "https://www.sohu.com/a/1076426725_121124345", date: ""}
   - {company: 中国华能, title: "华能澜沧江水电/华能云南滇东能源2027年大学毕业生招聘", url: "https://campus.niuqizp.com/job-vlYNNzLZN.html", date: "2026-10-22"}
   - {company: 国家电投, title: "国家电投集团2027届校园招聘公告", url: "https://wh.bendibao.com/job/2026914/200596.shtm", date: "2026-09-14"}
@@ -81,6 +82,7 @@ announcements:
   # --- 互联网大厂 ---
   - {company: 腾讯, title: "腾讯2027校园招聘启动（校招公告）", url: "https://join.qq.com/detail.html?id=288", date: "2026-08"}
   - {company: 腾讯, title: "【实习】腾讯云智服科（成都）游戏+AI岗位招聘", url: "https://campus.niuqizp.com/schedule-7mw8NnZzN.html", date: "2026-10-20"}
+  - {company: 腾讯, title: "【实习】腾讯27年实习 内容培训生·鹅媒派实习生专项招聘", url: "https://campus.niuqizp.com/schedule-7wyYNMNzt.html", date: "2026-10-29"}
   - {company: 阿里巴巴, title: "阿里巴巴2027届应届生招聘全球启动（AI岗位占80%）", url: "https://www.guancha.cn/economy/2026_08_05_826292.shtml", date: "2026-08-05"}
   - {company: 阿里巴巴, title: "阿里云2027届校招（管培生）", url: "https://campus.niuqizp.com/schedule-7ymmNCLMn.html", date: "2026-10-09"}
   - {company: 百度, title: "百度2027届校招正式启动（AI岗位占比超90%）", url: "https://m.thepaper.cn/newsDetail_forward_33555875", date: ""}
@@ -166,6 +168,7 @@ announcements:
   - {company: 江苏省国金投资集团, title: "江苏省国金投资集团2027届校园招聘公告", url: "https://campus.niuqizp.com/schedule-7yYrNM5MN.html", date: "2026-10-29"}
   - {company: 中国金融期货交易所, title: "中国金融期货交易所2027年应届毕业生招聘公告", url: "https://campus.niuqizp.com/schedule-7lr8NM5ZM.html", date: "2026-10-28"}
   - {company: 中国宝武, title: "宝信软件2027届校园招聘", url: "https://www.wondercv.com/xiaozhao/baosight-2027-campus-recruitment-20000-34bb0b/", date: "2026-10-29"}
+  - {company: 江门农村商业银行, title: "江门农村商业银行2027届校园招聘", url: "https://campus.niuqizp.com/schedule-7myYNMNaz.html", date: "2026-10-30"}
 not_found:
   - 山东高速集团
   - 鲁商集团
