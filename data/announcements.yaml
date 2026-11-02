@@ -1,5 +1,5 @@
 # 每日搜索整理的校招公告(Claude 定时任务写入,监控运行时并入邮件)。链接优先用官网/高校就业网,其次是转载。
-searched_at: "2026-11-01 08:30"
+searched_at: "2026-11-02 08:30"
 announcements:
   # --- 央企·信息通信军工 ---
   - {company: 国家电网, title: "国家电网2027年提前批校园招聘（正式第一批公告通常10月下旬发布）", url: "https://www.sohu.com/a/1079183361_121124029", date: ""}
@@ -93,6 +93,7 @@ announcements:
   - {company: 网易, title: "【实习】网易《蛋仔派对》AI实习专项招募（提前锁定校招Offer）", url: "https://campus.niuqizp.com/schedule-7wrYNnMCt.html", date: "2026-10-26"}
   - {company: 网易, title: "【实习】网易27年实习职位汇总（10月第5期，产品运营实习生等）", url: "https://campus.niuqizp.com/schedule-7YYmNMLCa.html", date: "2026-10-28"}
   - {company: 网易, title: "【实习】网易元气女性向IP营销线上实习招募", url: "https://campus.niuqizp.com/schedule-7wmyNMtZC.html", date: "2026-10-31"}
+  - {company: 网易, title: "【实习】网易文创浪潮工作室日常实习生招聘（北京）", url: "https://www.wondercv.com/xiaozhao/netease-wave-studio-beijing-intern-2026-20260-c8e892/", date: "2026-11-01"}
   - {company: 快手, title: "快手启动2027届秋季校园招聘", url: "https://finance.sina.com.cn/tech/roll/2026-08-12/doc-ininaezk5250932.shtml", date: "2026-08-12"}
   - {company: 拼多多, title: "拼多多2027届校招正式批启动（7大职类3000+人）", url: "https://news.qq.com/rain/a/20260902A089SY00", date: "2026-09-02"}
   - {company: 拼多多, title: "拼多多集团商务管培生岗位新增（2027校招）", url: "https://campus.niuqizp.com/schedule-7YsYNnanM.html", date: "2026-10-22"}
@@ -177,13 +178,18 @@ announcements:
   - {company: 中国农业发展集团, title: "中国农业发展集团2027届秋季校园招聘", url: "https://www.wondercv.com/xiaozhao/china-agri-group-2027-campus-beijing-20189-feb3cf/", date: "2026-10-31"}
   - {company: 四川农村商业联合银行, title: "四川农村商业联合银行2027年市级校园招聘", url: "https://www.wondercv.com/xiaozhao/scrcb-2027-campus-recruitment-sichuan-20181-8f58bc/", date: "2026-10-31"}
   - {company: vivo, title: "vivo 2027届校园招聘设计专场（CMF、ID设计师，东莞）", url: "https://www.wondercv.com/xiaozhao/vivo-2027-design-campus-dongguan-20184-d8ac7b/", date: "2026-10-31"}
+  - {company: 山东港口集团, title: "山东省港口集团有限公司2027届秋季校园招聘", url: "https://campus.niuqizp.com/schedule-7rUUNMZz5.html", date: "2026-11-01"}
+  - {company: 中国储备粮管理集团, title: "中国储备粮管理集团2027年度校园招聘公告", url: "https://campus.niuqizp.com/schedule-7U8rNMZzL.html", date: "2026-11-01"}
+  - {company: 光明食品集团, title: "光明食品集团2027届校园招聘", url: "https://campus.niuqizp.com/schedule-78srNMZan.html", date: "2026-11-01"}
+  - {company: 荣耀, title: "荣耀2027届博士校园招聘", url: "https://campus.niuqizp.com/schedule-7ssrNMZZn.html", date: "2026-11-01"}
+  - {company: 广西数据集团, title: "广西数据集团2027届校园招聘", url: "https://campus.niuqizp.com/schedule-7w8rNMZaa.html", date: "2026-11-01"}
+  - {company: 中国能建, title: "中国能建西北电力建设工程有限公司2027届秋季校园招聘", url: "https://www.wondercv.com/xiaozhao/ceec-northwest-power-xian-autumn-20254-c80e44/", date: "2026-11-01"}
 not_found:
   - 山东高速集团
   - 鲁商集团
   - 中航信
   - 中国铁路济南局
   - 山东中烟
-  - 山东港口集团
   - 山东钢铁集团
   - 华鲁控股
   - 鲁信集团
