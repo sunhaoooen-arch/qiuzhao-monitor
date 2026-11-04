@@ -1,5 +1,5 @@
 # 每日搜索整理的校招公告(Claude 定时任务写入,监控运行时并入邮件)。链接优先用官网/高校就业网,其次是转载。
-searched_at: "2026-11-03 08:30"
+searched_at: "2026-11-04 08:30"
 announcements:
   # --- 央企·信息通信军工 ---
   - {company: 国家电网, title: "国家电网2027年提前批校园招聘（正式第一批公告通常10月下旬发布）", url: "https://www.sohu.com/a/1079183361_121124029", date: ""}
@@ -163,6 +163,7 @@ announcements:
   - {company: 格力电器, title: "格力电器2027届校园招聘（石家庄）", url: "https://campus.niuqizp.com/schedule-7kksNnnCL.html", date: "2026-10-26"}
   - {company: 中国南方航空, title: "中国南方航空2027届秋季校园招聘", url: "https://www.wondercv.com/xiaozhao/csair-2027-autumn-campus-recruitment-19853-3ade4d/", date: "2026-10-28"}
   - {company: 中国南方航空, title: "中国南方航空2027届明珠优才管培生招聘", url: "https://campus.niuqizp.com/schedule-7YlyNMNNN.html", date: "2026-10-29"}
+  - {company: 中国南方航空, title: "南航科技（广东横琴）有限公司2027届秋季校园招聘", url: "https://campus.niuqizp.com/schedule-7U88NMzCL.html", date: "2026-11-03"}
   - {company: 中意人寿, title: "中意人寿2027届校园招聘", url: "https://www.wondercv.com/xiaozhao/zhongyi-life-2027-campus-recruitment-19850-78508d/", date: "2026-10-28"}
   - {company: 景顺长城基金, title: "景顺长城基金2027届校园招聘（行业研究、固收研究、ETF研究）", url: "https://www.wondercv.com/xiaozhao/invesco-great-wall-fund-2027-campus-19847-9c279f/", date: "2026-10-28"}
   - {company: 长江水利水电开发集团, title: "长江水利水电开发集团（湖北）2027年公开招聘高校毕业生（30岗48人）", url: "https://www.wondercv.com/xiaozhao/changjiang-hydropower-hubei-2027-campus-19846-f4af56/", date: "2026-10-28"}
@@ -191,6 +192,13 @@ announcements:
   - {company: 西安银行, title: "西安银行2027校园招聘", url: "https://campus.niuqizp.com/schedule-7UUmNMZM5.html", date: "2026-11-02"}
   - {company: 宁德时代, title: "宁德时代2027届全球校园招聘", url: "https://campus.niuqizp.com/schedule-7ykmNMZnz.html", date: "2026-11-01"}
   - {company: 珠海农商银行, title: "珠海农商银行2027届秋季校园招聘", url: "https://campus.niuqizp.com/schedule-78kmNMZn5.html", date: "2026-11-01"}
+  - {company: 延长石油, title: "延长石油2027年度秋季校园招聘", url: "https://campus.niuqizp.com/schedule-7Y8lNMzZN.html", date: "2026-11-02"}
+  - {company: 招商银行, title: "招商银行北京分行2027冬季校园招聘", url: "https://campus.niuqizp.com/schedule-7yslNMzzN.html", date: "2026-11-03"}
+  - {company: 招商银行, title: "招商银行武汉分行2027冬季校园招聘", url: "https://campus.niuqizp.com/schedule-7rkYNMzzt.html", date: "2026-11-03"}
+  - {company: 招商银行, title: "招商银行南昌分行2027冬季校园招聘", url: "https://campus.niuqizp.com/schedule-7s8lNMzzZ.html", date: "2026-11-03"}
+  - {company: 招商银行, title: "招商银行温州分行2027冬季校园招聘", url: "https://campus.niuqizp.com/schedule-7sUYNMzzz.html", date: "2026-11-03"}
+  - {company: 招商银行, title: "招商银行唐山分行2027冬季校园招聘", url: "https://campus.niuqizp.com/schedule-7YslNMzza.html", date: "2026-11-03"}
+  - {company: 招商银行, title: "招商银行长沙分行2027冬季校园招聘", url: "https://campus.niuqizp.com/schedule-7UkYNMzzC.html", date: "2026-11-03"}
 not_found:
   - 山东高速集团
   - 鲁商集团
