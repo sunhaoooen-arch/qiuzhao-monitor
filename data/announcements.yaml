@@ -1,5 +1,5 @@
 # 每日搜索整理的校招公告(Claude 定时任务写入,监控运行时并入邮件)。链接优先用官网/高校就业网,其次是转载。
-searched_at: "2026-11-04 08:30"
+searched_at: "2026-11-05 08:30"
 announcements:
   # --- 央企·信息通信军工 ---
   - {company: 国家电网, title: "国家电网2027年提前批校园招聘（正式第一批公告通常10月下旬发布）", url: "https://www.sohu.com/a/1079183361_121124029", date: ""}
@@ -14,10 +14,12 @@ announcements:
   - {company: 中国电信, title: "中通服（中国电信控股）旗下中通信息服务、广东南方电信规划咨询设计院2027年度校园招聘（截至11月5日）", url: "https://campus.niuqizp.com/schedule-78UlNanaC.html", date: "2026-10-08"}
   - {company: 中国电信, title: "中国电信数据发展中心（天翼支付）2027届校园招聘公告", url: "https://www.sdrcjy.com.cn/index.php?a=shows&catid=65&id=61582", date: "2026-10-08"}
   - {company: 中国电信, title: "中国电信天翼数字生活公司2027届校园招聘公告", url: "https://www.sdrcjy.com.cn/index.php?a=shows&catid=65&id=61678", date: "2026-10-14"}
+  - {company: 中国电信, title: "中国电信国际公司2027校园招聘", url: "https://www.wondercv.com/xiaozhao/china-telecom-international-hongkong-2027-campus-20513-413df5/", date: "2026-11-04"}
   - {company: 中国联通, title: "中国联通2027校园招聘启动（含AI研发、网络技术、数据分析等岗位）", url: "https://news.qq.com/rain/a/20260827A0ANP000", date: "2026-08-27"}
   - {company: 中国联通, title: "中国联通海南省分公司2027届秋招", url: "https://www.wondercv.com/xiaozhao/china-unicom-hainan-2027-autumn-17852-2b9882/", date: "2026-10-11"}
   - {company: 中国电科, title: "中国电科2027届校园招聘正式启动", url: "https://www.cetc.com.cn/zgdk/1593022/1592495/2127615/index.html", date: ""}
   - {company: 中国电科, title: "中网华通（中国电科所属）2027届校园招聘", url: "https://www.wondercv.com/xiaozhao/cetc-zhongwang-huatong-2027-campus-recruitment-17350-25ed37/", date: "2026-10-04"}
+  - {company: 中国电科, title: "中国电科33所2027届校园招聘", url: "https://campus.niuqizp.com/schedule-7wrmNMaZL.html", date: "2026-11-03"}
   - {company: 中国电子CEC, title: "中国电子信息产业集团有限公司2027届校园招聘信息", url: "https://www.gaoxiaojob.com/announcement/detail/428981.html", date: ""}
   - {company: 中国信科, title: "中国信科集团2027校园招聘启动", url: "https://www.gwy.com/gqzp/413628.html", date: ""}
   - {company: 中国星网, title: "中国星网2027校园招聘（北森官网岗位列表）", url: "https://cscnrczp.zhiye.com/campus/jobs", date: ""}
@@ -199,6 +201,13 @@ announcements:
   - {company: 招商银行, title: "招商银行温州分行2027冬季校园招聘", url: "https://campus.niuqizp.com/schedule-7sUYNMzzz.html", date: "2026-11-03"}
   - {company: 招商银行, title: "招商银行唐山分行2027冬季校园招聘", url: "https://campus.niuqizp.com/schedule-7YslNMzza.html", date: "2026-11-03"}
   - {company: 招商银行, title: "招商银行长沙分行2027冬季校园招聘", url: "https://campus.niuqizp.com/schedule-7UkYNMzzC.html", date: "2026-11-03"}
+  - {company: 比亚迪, title: "比亚迪2027届全球校园招聘汽车工程研究院专场", url: "https://campus.niuqizp.com/schedule-7mrUNMzMn.html", date: "2026-11-03"}
+  - {company: 比亚迪, title: "比亚迪2027届全球校园招聘光伏&智慧物流团队专场", url: "https://campus.niuqizp.com/schedule-7mUrNMzMM.html", date: "2026-11-03"}
+  - {company: 比亚迪, title: "比亚迪2027届全球校园招聘信息中心团队专场", url: "https://campus.niuqizp.com/schedule-7mwrNMaLL.html", date: "2026-11-03"}
+  - {company: 鞍钢集团, title: "攀钢集团矿业有限公司2027届校园招聘", url: "https://www.wondercv.com/xiaozhao/pangang-mining-panzhihua-2027-campus-20511-cabafb/", date: "2026-11-04"}
+  - {company: 中国国家铁路集团, title: "中国铁道科学研究院2027届校园招聘", url: "https://www.wondercv.com/xiaozhao/china-railway-academy-2027-campus-recruitment-20506-77bd92/", date: "2026-11-04"}
+  - {company: 金华银行, title: "金华银行2027届秋季校园招聘", url: "https://www.wondercv.com/xiaozhao/bank-of-jinhua-2027-autumn-campus-20515-1e9cce/", date: "2026-11-04"}
+  - {company: 美图, title: "美图2027校园招聘", url: "https://www.wondercv.com/xiaozhao/meitu-2027-campus-shenzhen-xiamen-20517-ec6f01/", date: "2026-11-04"}
 not_found:
   - 山东高速集团
   - 鲁商集团
