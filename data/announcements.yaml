@@ -1,5 +1,5 @@
 # 每日搜索整理的校招公告(Claude 定时任务写入,监控运行时并入邮件)。链接优先用官网/高校就业网,其次是转载。
-searched_at: "2026-11-05 08:30"
+searched_at: "2026-11-06 08:30"
 announcements:
   # --- 央企·信息通信军工 ---
   - {company: 国家电网, title: "国家电网2027年提前批校园招聘（正式第一批公告通常10月下旬发布）", url: "https://www.sohu.com/a/1079183361_121124029", date: ""}
@@ -90,6 +90,7 @@ announcements:
   - {company: 百度, title: "百度2027届校招正式启动（AI岗位占比超90%）", url: "https://m.thepaper.cn/newsDetail_forward_33555875", date: ""}
   - {company: 华为, title: "华为启动2027届应届生招聘（研发、销售、财经等）", url: "https://finance.sina.com.cn/wm/2026-08-15/doc-ininkrwq1862242.shtml", date: "2026-08-15"}
   - {company: 华为, title: "华为技术有限公司ICT BG 2027届应届生招聘（硬件类岗位）", url: "https://campus.niuqizp.com/schedule-7kryNntzL.html", date: "2026-10-19"}
+  - {company: 华为, title: "华为ICT市场体系2027届应届生招聘", url: "https://campus.niuqizp.com/schedule-7UrsNMCLZ.html", date: "2026-11-05"}
   - {company: 小米, title: "小米2027届全球校园招聘启动（AI岗位需求增长50%）", url: "https://www.jiemian.com/article/14906461.html", date: ""}
   - {company: 网易, title: "网易游戏雷火2027届秋季校园招聘全球开启", url: "https://career.nankai.edu.cn/correcruit/content/id/117003.html", date: ""}
   - {company: 网易, title: "【实习】网易《蛋仔派对》AI实习专项招募（提前锁定校招Offer）", url: "https://campus.niuqizp.com/schedule-7wrYNnMCt.html", date: "2026-10-26"}
@@ -208,6 +209,9 @@ announcements:
   - {company: 中国国家铁路集团, title: "中国铁道科学研究院2027届校园招聘", url: "https://www.wondercv.com/xiaozhao/china-railway-academy-2027-campus-recruitment-20506-77bd92/", date: "2026-11-04"}
   - {company: 金华银行, title: "金华银行2027届秋季校园招聘", url: "https://www.wondercv.com/xiaozhao/bank-of-jinhua-2027-autumn-campus-20515-1e9cce/", date: "2026-11-04"}
   - {company: 美图, title: "美图2027校园招聘", url: "https://www.wondercv.com/xiaozhao/meitu-2027-campus-shenzhen-xiamen-20517-ec6f01/", date: "2026-11-04"}
+  - {company: 通用技术集团, title: "通用技术集团2027管培生招聘", url: "https://campus.niuqizp.com/schedule-7srYNMann.html", date: "2026-11-04"}
+  - {company: 云南国际信托, title: "云南信托2027届英才管培计划校园招聘", url: "https://campus.niuqizp.com/schedule-7sklNMCL5.html", date: "2026-11-05"}
+  - {company: 上海莱士, title: "上海莱士2027彩虹计划校园招聘", url: "https://campus.niuqizp.com/schedule-7swsNMCLN.html", date: "2026-11-05"}
 not_found:
   - 山东高速集团
   - 鲁商集团
