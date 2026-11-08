@@ -1,5 +1,5 @@
 # 每日搜索整理的校招公告(Claude 定时任务写入,监控运行时并入邮件)。链接优先用官网/高校就业网,其次是转载。
-searched_at: "2026-11-07 08:30"
+searched_at: "2026-11-08 08:35"
 announcements:
   # --- 央企·信息通信军工 ---
   - {company: 国家电网, title: "国家电网2027年提前批校园招聘（正式第一批公告通常10月下旬发布）", url: "https://www.sohu.com/a/1079183361_121124029", date: ""}
@@ -17,6 +17,7 @@ announcements:
   - {company: 中国电信, title: "中国电信国际公司2027校园招聘", url: "https://www.wondercv.com/xiaozhao/china-telecom-international-hongkong-2027-campus-20513-413df5/", date: "2026-11-04"}
   - {company: 中国联通, title: "中国联通2027校园招聘启动（含AI研发、网络技术、数据分析等岗位）", url: "https://news.qq.com/rain/a/20260827A0ANP000", date: "2026-08-27"}
   - {company: 中国联通, title: "中国联通海南省分公司2027届秋招", url: "https://www.wondercv.com/xiaozhao/china-unicom-hainan-2027-autumn-17852-2b9882/", date: "2026-10-11"}
+  - {company: 中国联通, title: "北京电信规划设计院2027届校园招聘", url: "https://www.wondercv.com/xiaozhao/beijing-telecom-planning-design-institute-2027-camp-20629-2b1552/", date: "2026-11-06"}
   - {company: 中国电科, title: "中国电科2027届校园招聘正式启动", url: "https://www.cetc.com.cn/zgdk/1593022/1592495/2127615/index.html", date: ""}
   - {company: 中国电科, title: "中网华通（中国电科所属）2027届校园招聘", url: "https://www.wondercv.com/xiaozhao/cetc-zhongwang-huatong-2027-campus-recruitment-17350-25ed37/", date: "2026-10-04"}
   - {company: 中国电科, title: "中国电科33所2027届校园招聘", url: "https://campus.niuqizp.com/schedule-7wrmNMaZL.html", date: "2026-11-03"}
@@ -218,6 +219,9 @@ announcements:
   - {company: 上海莱士, title: "上海莱士2027彩虹计划校园招聘", url: "https://campus.niuqizp.com/schedule-7swsNMCLN.html", date: "2026-11-05"}
   - {company: 山东电工电气, title: "山东电工电气集团2027年英才招聘（校园招聘，报名至12月3日）", url: "https://campus.niuqizp.com/schedule-7Yk8NMCNM.html", date: "2026-11-05"}
   - {company: 中国煤炭地质总局, title: "中国煤炭地质总局2027年校园招聘", url: "https://campus.niuqizp.com/schedule-7wYUNMCnC.html", date: "2026-11-06"}
+  - {company: 中信证券, title: "中信证券（山东）有限责任公司2027年校园招聘", url: "https://campus.niuqizp.com/schedule-7YlsNMnZM.html", date: "2026-11-07"}
+  - {company: 中国铁建, title: "中铁十四局铁正检测科技2027届秋季校园招聘", url: "https://campus.niuqizp.com/schedule-7rlYNMntt.html", date: "2026-11-07"}
+  - {company: 中国建研院, title: "北京建筑机械化研究院2027年度校园招聘", url: "https://campus.niuqizp.com/schedule-7UwlNMntn.html", date: "2026-11-06"}
 not_found:
   - 山东高速集团
   - 鲁商集团
