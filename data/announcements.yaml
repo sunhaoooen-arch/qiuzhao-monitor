@@ -1,5 +1,5 @@
 # 每日搜索整理的校招公告(Claude 定时任务写入,监控运行时并入邮件)。链接优先用官网/高校就业网,其次是转载。
-searched_at: "2026-11-08 08:35"
+searched_at: "2026-11-09 08:30"
 announcements:
   # --- 央企·信息通信军工 ---
   - {company: 国家电网, title: "国家电网2027年提前批校园招聘（正式第一批公告通常10月下旬发布）", url: "https://www.sohu.com/a/1079183361_121124029", date: ""}
@@ -33,6 +33,7 @@ announcements:
   - {company: 航空工业, title: "航空工业第一飞机设计研究院2027届校园招聘公告", url: "https://www.sdrcjy.com.cn/index.php?a=shows&catid=65&id=61589", date: "2026-10-09"}
   - {company: 航空工业, title: "航空工业济南特种结构研究所2027届校园招聘公告", url: "https://www.sdrcjy.com.cn/index.php?a=shows&catid=66&id=61632", date: "2026-10-13"}
   - {company: 航空工业, title: "航空工业金航数码2027届校园招聘", url: "https://campus.niuqizp.com/schedule-7YmsNnzMa.html", date: "2026-10-21"}
+  - {company: 航空工业, title: "航空工业导弹院2027届校园招聘", url: "https://www.wondercv.com/xiaozhao/avic-missile-institute-2027-campus-20666-111a22/", date: "2026-11-08"}
   - {company: 中国通号, title: "中国通号2027届校园招聘全面启动", url: "https://www.dikongjie.com/11126.html", date: ""}
   # --- 央企·能源与综合 ---
   - {company: 国家能源集团, title: "国家能源集团2027年度高校毕业生直招（10月25日全国统考）", url: "https://zhaopin.chnenergy.com.cn/annc/annclist?ggtype=1", date: "2026-09-04"}
@@ -222,6 +223,8 @@ announcements:
   - {company: 中信证券, title: "中信证券（山东）有限责任公司2027年校园招聘", url: "https://campus.niuqizp.com/schedule-7YlsNMnZM.html", date: "2026-11-07"}
   - {company: 中国铁建, title: "中铁十四局铁正检测科技2027届秋季校园招聘", url: "https://campus.niuqizp.com/schedule-7rlYNMntt.html", date: "2026-11-07"}
   - {company: 中国建研院, title: "北京建筑机械化研究院2027年度校园招聘", url: "https://campus.niuqizp.com/schedule-7UwlNMntn.html", date: "2026-11-06"}
+  - {company: 山东海洋集团, title: "山东海洋集团有限公司2027届校园招聘公告", url: "https://www.wondercv.com/xiaozhao/sdmg-2027-campus-jinan-qingdao-shanghai-20664-6e5615/", date: "2026-11-08"}
+  - {company: 中国中铁, title: "中铁九桥2027届校园招聘", url: "https://campus.niuqizp.com/schedule-7wlrNMnMt.html", date: "2026-11-08"}
 not_found:
   - 山东高速集团
   - 鲁商集团
@@ -232,7 +235,6 @@ not_found:
   - 华鲁控股
   - 鲁信集团
   - 山东国惠
-  - 山东海洋集团
   - 水发集团
   - 山东铁投
   - 山东文旅集团
