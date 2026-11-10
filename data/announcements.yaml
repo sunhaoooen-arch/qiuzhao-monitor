@@ -1,5 +1,5 @@
 # 每日搜索整理的校招公告(Claude 定时任务写入,监控运行时并入邮件)。链接优先用官网/高校就业网,其次是转载。
-searched_at: "2026-11-09 08:30"
+searched_at: "2026-11-10 08:35"
 announcements:
   # --- 央企·信息通信军工 ---
   - {company: 国家电网, title: "国家电网2027年提前批校园招聘（正式第一批公告通常10月下旬发布）", url: "https://www.sohu.com/a/1079183361_121124029", date: ""}
@@ -121,6 +121,7 @@ announcements:
   - {company: 小红书, title: "【实习】小红书2027届校招 Lab 1327 产品设计、研发", url: "https://campus.niuqizp.com/schedule-7rYsNnZtt.html", date: "2026-10-20"}
   - {company: 小红书, title: "小红书平台部2027校招（公共事务、安全运营、品牌沟通）", url: "https://campus.niuqizp.com/schedule-78y8NnCtZ.html", date: "2026-10-23"}
   - {company: 中国建材, title: "新疆天山水泥有限责任公司2027年校园招聘", url: "https://campus.niuqizp.com/schedule-7wwkNnZLL.html", date: "2026-10-20"}
+  - {company: 中国建材, title: "中国建材集团2027届秋季校园招聘（报名至12月8日）", url: "https://campus.niuqizp.com/schedule-7lmmNMM5L.html", date: "2026-11-08"}
   - {company: 厦门港务控股集团, title: "厦门港务控股集团2027年秋季校园招聘", url: "https://campus.niuqizp.com/schedule-7swlNnZLn.html", date: "2026-10-20"}
   - {company: 黄河古贤水利枢纽, title: "黄河古贤水利枢纽有限公司2027年度公开招聘高校毕业生（国企，面向2027届）", url: "https://campus.niuqizp.com/schedule-7s88NnaNC.html", date: "2026-10-21"}
   - {company: 中兴通讯, title: "【实习】中兴通讯西安、长沙等多个基地27年实习生招聘（研发/测试/技术支持）", url: "https://campus.niuqizp.com/schedule-7YU8NnaNt.html", date: "2026-10-21"}
