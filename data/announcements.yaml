@@ -1,5 +1,5 @@
 # 每日搜索整理的校招公告(Claude 定时任务写入,监控运行时并入邮件)。链接优先用官网/高校就业网,其次是转载。
-searched_at: "2026-11-11 08:35"
+searched_at: "2026-11-12 08:35"
 announcements:
   # --- 央企·信息通信军工 ---
   - {company: 国家电网, title: "国家电网2027年提前批校园招聘（正式第一批公告通常10月下旬发布）", url: "https://www.sohu.com/a/1079183361_121124029", date: ""}
@@ -21,6 +21,7 @@ announcements:
   - {company: 中国电科, title: "中国电科2027届校园招聘正式启动", url: "https://www.cetc.com.cn/zgdk/1593022/1592495/2127615/index.html", date: ""}
   - {company: 中国电科, title: "中网华通（中国电科所属）2027届校园招聘", url: "https://www.wondercv.com/xiaozhao/cetc-zhongwang-huatong-2027-campus-recruitment-17350-25ed37/", date: "2026-10-04"}
   - {company: 中国电科, title: "中国电科33所2027届校园招聘", url: "https://campus.niuqizp.com/schedule-7wrmNMaZL.html", date: "2026-11-03"}
+  - {company: 中国电科, title: "中国电科9所2027届校园招聘", url: "https://campus.niuqizp.com/schedule-7U8UtLLCC.html", date: "2026-11-11"}
   - {company: 中国电子CEC, title: "中国电子信息产业集团有限公司2027届校园招聘信息", url: "https://www.gaoxiaojob.com/announcement/detail/428981.html", date: ""}
   - {company: 中国信科, title: "中国信科集团2027校园招聘启动", url: "https://www.gwy.com/gqzp/413628.html", date: ""}
   - {company: 中国星网, title: "中国星网2027校园招聘（北森官网岗位列表）", url: "https://cscnrczp.zhiye.com/campus/jobs", date: ""}
@@ -178,6 +179,7 @@ announcements:
   - {company: 中国南方航空, title: "中国南方航空2027届秋季校园招聘", url: "https://www.wondercv.com/xiaozhao/csair-2027-autumn-campus-recruitment-19853-3ade4d/", date: "2026-10-28"}
   - {company: 中国南方航空, title: "中国南方航空2027届明珠优才管培生招聘", url: "https://campus.niuqizp.com/schedule-7YlyNMNNN.html", date: "2026-10-29"}
   - {company: 中国南方航空, title: "南航科技（广东横琴）有限公司2027届秋季校园招聘", url: "https://campus.niuqizp.com/schedule-7U88NMzCL.html", date: "2026-11-03"}
+  - {company: 中国南方航空, title: "南航通用航空2027届校园招聘", url: "https://www.wondercv.com/xiaozhao/csair-general-aviation-2027-campus-zhuhai-20974-e04382/", date: "2026-11-11"}
   - {company: 中意人寿, title: "中意人寿2027届校园招聘", url: "https://www.wondercv.com/xiaozhao/zhongyi-life-2027-campus-recruitment-19850-78508d/", date: "2026-10-28"}
   - {company: 景顺长城基金, title: "景顺长城基金2027届校园招聘（行业研究、固收研究、ETF研究）", url: "https://www.wondercv.com/xiaozhao/invesco-great-wall-fund-2027-campus-19847-9c279f/", date: "2026-10-28"}
   - {company: 长江水利水电开发集团, title: "长江水利水电开发集团（湖北）2027年公开招聘高校毕业生（30岗48人）", url: "https://www.wondercv.com/xiaozhao/changjiang-hydropower-hubei-2027-campus-19846-f4af56/", date: "2026-10-28"}
@@ -217,6 +219,7 @@ announcements:
   - {company: 招商银行, title: "招商银行济南分行2027冬季校园招聘", url: "https://campus.niuqizp.com/schedule-7YmstLL5L.html", date: "2026-11-10"}
   - {company: 招商银行, title: "招商银行青岛分行2027冬季校园招聘", url: "https://campus.niuqizp.com/schedule-7UY8tLL55.html", date: "2026-11-10"}
   - {company: 招商银行, title: "招商银行深圳分行2027冬季校园招聘", url: "https://campus.niuqizp.com/schedule-7Yl8tLLLM.html", date: "2026-11-10"}
+  - {company: 招商银行, title: "招商银行烟台分行2027冬季校园招聘", url: "https://campus.niuqizp.com/schedule-7YyktLLCa.html", date: "2026-11-11"}
   - {company: 比亚迪, title: "比亚迪2027届全球校园招聘汽车工程研究院专场", url: "https://campus.niuqizp.com/schedule-7mrUNMzMn.html", date: "2026-11-03"}
   - {company: 比亚迪, title: "比亚迪2027届全球校园招聘光伏&智慧物流团队专场", url: "https://campus.niuqizp.com/schedule-7mUrNMzMM.html", date: "2026-11-03"}
   - {company: 比亚迪, title: "比亚迪2027届全球校园招聘信息中心团队专场", url: "https://campus.niuqizp.com/schedule-7mwrNMaLL.html", date: "2026-11-03"}
@@ -235,6 +238,8 @@ announcements:
   - {company: 山东海洋集团, title: "山东海洋集团有限公司2027届校园招聘公告", url: "https://www.wondercv.com/xiaozhao/sdmg-2027-campus-jinan-qingdao-shanghai-20664-6e5615/", date: "2026-11-08"}
   - {company: 中国中铁, title: "中铁九桥2027届校园招聘", url: "https://campus.niuqizp.com/schedule-7wlrNMnMt.html", date: "2026-11-08"}
   - {company: 中航信, title: "中国航信2027届校园招聘（报名入口 travelsky.hotjob.cn，转载）", url: "https://m.gwy.com/gqzp/415446.html", date: "2026-11-07"}
+  - {company: 水发集团, title: "水发集团2027届高校毕业生秋季校园招聘公告（报名11月11日至17日）", url: "https://campus.niuqizp.com/schedule-7rsUtLLnC.html", date: "2026-11-09"}
+  - {company: 山东航空, title: "山东航空2027届校园招聘简章（机务/乘务/安全员）", url: "https://campus.niuqizp.com/schedule-7syktLLnn.html", date: "2026-11-11"}
 not_found:
   - 山东高速集团
   - 鲁商集团
@@ -244,7 +249,6 @@ not_found:
   - 华鲁控股
   - 鲁信集团
   - 山东国惠
-  - 水发集团
   - 山东铁投
   - 山东文旅集团
   - 山东财金集团
