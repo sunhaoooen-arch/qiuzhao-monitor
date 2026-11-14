@@ -1,5 +1,5 @@
 # 每日搜索整理的校招公告(Claude 定时任务写入,监控运行时并入邮件)。链接优先用官网/高校就业网,其次是转载。
-searched_at: "2026-11-13 08:35"
+searched_at: "2026-11-14 08:35"
 announcements:
   # --- 央企·信息通信军工 ---
   - {company: 国家电网, title: "国家电网2027年提前批校园招聘（正式第一批公告通常10月下旬发布）", url: "https://www.sohu.com/a/1079183361_121124029", date: ""}
@@ -107,6 +107,7 @@ announcements:
   - {company: 拼多多, title: "拼多多2027届校招正式批启动（7大职类3000+人）", url: "https://news.qq.com/rain/a/20260902A089SY00", date: "2026-09-02"}
   - {company: 拼多多, title: "拼多多集团商务管培生岗位新增（2027校招）", url: "https://campus.niuqizp.com/schedule-7YsYNnanM.html", date: "2026-10-22"}
   - {company: 京东, title: "京东全面启动2027校园招聘", url: "https://www.jiemian.com/article/14864754.html", date: ""}
+  - {company: 京东, title: "京东2027 TET管理培训生持续招募中", url: "https://campus.niuqizp.com/schedule-7Y8ltLNZM.html", date: "2026-11-12"}
   - {company: 美团, title: "美团2027届校园招聘启动（新华网）", url: "https://www.news.cn/tech/20260818/b4bedb40261845379384a1a6565da3cc/c.html", date: "2026-08-18"}
   - {company: 美团, title: "【实习】美团 Keeta 培训/质检实习生（2027校招）", url: "https://campus.niuqizp.com/job-vylN5ZtLZ.html", date: "2026-10-13"}
   - {company: 字节跳动, title: "【实习】懂车帝2027届实习（含转正实习）", url: "https://campus.niuqizp.com/schedule-7yYsNCLt5.html", date: "2026-10-09"}
@@ -227,6 +228,8 @@ announcements:
   - {company: 中国国家铁路集团, title: "中国铁道科学研究院2027届校园招聘", url: "https://www.wondercv.com/xiaozhao/china-railway-academy-2027-campus-recruitment-20506-77bd92/", date: "2026-11-04"}
   - {company: 中国国家铁路集团, title: "中国铁路郑州局集团2027年招聘普通高校毕业生公告（一）", url: "https://campus.niuqizp.com/schedule-7lkUtLN5a.html", date: "2026-11-12"}
   - {company: 中国国家铁路集团, title: "中国铁路乌鲁木齐局集团2027年招聘普通高校毕业生公告（一）", url: "https://campus.niuqizp.com/schedule-78sktLN5z.html", date: "2026-11-12"}
+  - {company: 中国国家铁路集团, title: "中国铁路南宁局集团招聘2027年高校毕业生公告一（本科及以上）", url: "https://campus.niuqizp.com/schedule-7w88tLNMt.html", date: "2026-11-13"}
+  - {company: 中国国家铁路集团, title: "中国铁路郑州局集团2027年招聘普通高校毕业生公告（二）", url: "https://www.wondercv.com/xiaozhao/china-railway-zhengzhou-2027-campus-21141-655215/", date: "2026-11-13"}
   - {company: 金华银行, title: "金华银行2027届秋季校园招聘", url: "https://www.wondercv.com/xiaozhao/bank-of-jinhua-2027-autumn-campus-20515-1e9cce/", date: "2026-11-04"}
   - {company: 美图, title: "美图2027校园招聘", url: "https://www.wondercv.com/xiaozhao/meitu-2027-campus-shenzhen-xiamen-20517-ec6f01/", date: "2026-11-04"}
   - {company: 通用技术集团, title: "通用技术集团2027管培生招聘", url: "https://campus.niuqizp.com/schedule-7srYNMann.html", date: "2026-11-04"}
@@ -243,9 +246,12 @@ announcements:
   - {company: 水发集团, title: "水发集团2027届高校毕业生秋季校园招聘公告（报名11月11日至17日）", url: "https://campus.niuqizp.com/schedule-7rsUtLLnC.html", date: "2026-11-09"}
   - {company: 山东航空, title: "山东航空2027届校园招聘简章（机务/乘务/安全员）", url: "https://campus.niuqizp.com/schedule-7syktLLnn.html", date: "2026-11-11"}
   - {company: 中国铁路济南局, title: "中国铁路济南局集团2027年度招聘普通高校本科及以上学历毕业生公告（一）（报名至12月10日）", url: "https://campus.niuqizp.com/schedule-7k8ktLN5C.html", date: "2026-11-12"}
+  - {company: 中国铁路济南局, title: "中国铁路济南局集团2027年招聘普通高校专科（高职）毕业生（1240人）", url: "https://www.wondercv.com/xiaozhao/china-railway-jinan-2027-college-recruitment-21143-b2a863/", date: "2026-11-13"}
   - {company: 中国重汽, title: "中国重汽福建海西汽车2027届校园招聘公告", url: "https://campus.niuqizp.com/schedule-7sUmtL5nN.html", date: "2026-11-12"}
+  - {company: 中国重汽, title: "【实习】中国重汽福建海西汽车2027届实习生招聘公告", url: "https://campus.niuqizp.com/schedule-7UUstLNCn.html", date: "2026-11-13"}
   - {company: 中国期货市场监控中心, title: "中国期货市场监控中心2027年度校园招聘启事（截止11月15日）", url: "https://campus.niuqizp.com/schedule-7m8ytL5nz.html", date: "2026-11-12"}
   - {company: 山东财金集团, title: "山东财金集团校园招聘公告（面向2027届，报名11月13日12:00截止）", url: "http://campus.51job.com/sdcj202611/school.html", date: "2026-11-03"}
+  - {company: 中核集团, title: "三门核电2027年校园招聘", url: "https://campus.niuqizp.com/schedule-7rYUtLtN5.html", date: "2026-11-13"}
 not_found:
   - 山东高速集团
   - 鲁商集团
