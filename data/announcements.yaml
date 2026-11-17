@@ -1,5 +1,5 @@
 # 每日搜索整理的校招公告(Claude 定时任务写入,监控运行时并入邮件)。链接优先用官网/高校就业网,其次是转载。
-searched_at: "2026-11-16 08:35"
+searched_at: "2026-11-17 08:35"
 announcements:
   # --- 央企·信息通信军工 ---
   - {company: 国家电网, title: "国家电网2027年提前批校园招聘（正式第一批公告通常10月下旬发布）", url: "https://www.sohu.com/a/1079183361_121124029", date: ""}
@@ -223,6 +223,7 @@ announcements:
   - {company: 招商银行, title: "招商银行青岛分行2027冬季校园招聘", url: "https://campus.niuqizp.com/schedule-7UY8tLL55.html", date: "2026-11-10"}
   - {company: 招商银行, title: "招商银行深圳分行2027冬季校园招聘", url: "https://campus.niuqizp.com/schedule-7Yl8tLLLM.html", date: "2026-11-10"}
   - {company: 招商银行, title: "招商银行烟台分行2027冬季校园招聘", url: "https://campus.niuqizp.com/schedule-7YyktLLCa.html", date: "2026-11-11"}
+  - {company: 招商银行, title: "招商银行总行2027校园招聘冬季场（补录，投递至12月4日）", url: "https://campus.niuqizp.com/schedule-7yYltLZta.html", date: "2026-11-16"}
   - {company: 比亚迪, title: "比亚迪2027届全球校园招聘汽车工程研究院专场", url: "https://campus.niuqizp.com/schedule-7mrUNMzMn.html", date: "2026-11-03"}
   - {company: 比亚迪, title: "比亚迪2027届全球校园招聘光伏&智慧物流团队专场", url: "https://campus.niuqizp.com/schedule-7mUrNMzMM.html", date: "2026-11-03"}
   - {company: 比亚迪, title: "比亚迪2027届全球校园招聘信息中心团队专场", url: "https://campus.niuqizp.com/schedule-7mwrNMaLL.html", date: "2026-11-03"}
@@ -263,6 +264,8 @@ announcements:
   - {company: 青岛国信, title: "青岛国信集团2027届校园招聘正式启动（转载）", url: "https://www.sohu.com/a/1098117902_121106842", date: "2026-11-06"}
   - {company: 山东铁投, title: "山东铁投集团2027届秋季校园招聘公告（10月10日已截止）", url: "https://hicv.cn/xiaozhao/shandong-railway-group-2027-fall-campus-12424-5ce007", date: "2026-08-11"}
   - {company: 中水淮河公司, title: "中水淮河公司2027年度新员工招聘", url: "https://campus.niuqizp.com/schedule-7mkktLtCN.html", date: "2026-11-16"}
+  - {company: 中国再保, title: "中国再保2027届秋季校园招聘（北京，至11月30日）", url: "https://campus.niuqizp.com/schedule-7lwltLZZL.html", date: "2026-11-16"}
+  - {company: 国联民生证券, title: "国联民生承销保荐秋季校园招聘（面向2027届，至12月14日）", url: "https://campus.niuqizp.com/schedule-7kwYtLZLz.html", date: "2026-11-16"}
 not_found:
   - 鲁商集团
   - 山东中烟
