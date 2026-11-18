@@ -1,0 +1,46 @@
+# 临时:待验证的候选 URL(第二批:央企 / 山东国企)。试抓后挑能用的并入 companies.yaml,然后删掉本文件。
+companies:
+  # --- 聚合入口(一页覆盖多家国企的招聘公告) ---
+  - {name: 山东省国资委招聘专栏, category: 甲, ats: generic, url: "http://gzw.shandong.gov.cn/channels/ch00223/"}
+  - {name: 山东人才就业网-省内, category: 甲, ats: generic, url: "https://www.sdrcjy.com.cn/index.php?a=lists&catid=66"}
+  - {name: 国聘, category: 甲, ats: iguopin, url: "https://www.iguopin.com/job?keyword=软件&city=370000"}
+  # --- 能源电力央企 ---
+  - {name: 国家电网, category: 甲, ats: generic, url: "https://zhaopin.sgcc.com.cn/"}
+  - {name: 中国石油, category: 乙, ats: generic, url: "https://zhaopin.cnpc.com.cn/"}
+  - {name: 中国石化, category: 乙, ats: generic, url: "https://job.sinopec.com/"}
+  - {name: 中国海油, category: 乙, ats: generic, url: "https://zhaopin.cnooc.com.cn/"}
+  - {name: 国家能源集团, category: 乙, ats: generic, url: "https://zhaopin.chnenergy.com.cn/"}
+  - {name: 中国华能, category: 乙, ats: generic, url: "https://zhaopin.chng.com.cn/"}
+  - {name: 中国大唐, category: 乙, ats: generic, url: "https://zhaopin.china-cdt.com/"}
+  - {name: 中国华电, category: 乙, ats: generic, url: "https://rencaishichang.chd.com.cn/"}
+  - {name: 国家电投, category: 乙, ats: generic, url: "https://zhaopin.spic.com.cn/"}
+  - {name: 三峡集团, category: 乙, ats: generic, url: "https://zhaopin.ctg.com.cn/"}
+  # --- 通信 / 电子 / 军工 ---
+  - {name: 中国电信, category: 乙, ats: generic, url: "https://zhaopin.chinatelecom.com.cn/"}
+  - {name: 中国联通, category: 乙, ats: generic, url: "https://zhaopin.chinaunicom.cn/"}
+  - {name: 中国铁塔, category: 乙, ats: generic, url: "https://zhaopin.china-tower.com/"}
+  - {name: 中国电子CEC, category: 乙, ats: generic, url: "https://zhaopin.cec.com.cn/"}
+  - {name: 中国电科CETC, category: 乙, ats: generic, url: "https://zhaopin.cetc.com.cn/"}
+  - {name: 航天科工, category: 乙, ats: generic, url: "https://zhaopin.casic.com.cn/"}
+  - {name: 航天科技, category: 乙, ats: generic, url: "https://zhaopin.spacechina.com/"}
+  - {name: 中国船舶, category: 乙, ats: generic, url: "https://zhaopin.cssc.net.cn/"}
+  # --- 金融央企 ---
+  - {name: 工商银行, category: 乙, ats: generic, url: "https://job.icbc.com.cn/"}
+  - {name: 农业银行, category: 乙, ats: generic, url: "https://career.abchina.com.cn/"}
+  - {name: 中国银行, category: 乙, ats: generic, url: "https://www.boc.cn/aboutboc/bi4/"}
+  - {name: 建设银行, category: 乙, ats: generic, url: "https://job.ccb.com/cn/job/plan_index.html?planType=XY"}
+  - {name: 交通银行, category: 乙, ats: generic, url: "https://job.bankcomm.com/"}
+  - {name: 国家开发银行, category: 乙, ats: generic, url: "https://zhaopin.cdb.com.cn/"}
+  # --- 基建 / 交通 ---
+  - {name: 中国建筑, category: 乙, ats: generic, url: "https://zhaopin.cscec.com/"}
+  - {name: 中国铁建, category: 乙, ats: generic, url: "https://zhaopin.crcc.cn/"}
+  - {name: 中国中铁, category: 乙, ats: generic, url: "https://zhaopin.crec.cn/"}
+  - {name: 中国交建, category: 乙, ats: generic, url: "https://zhaopin.ccccltd.cn/"}
+  - {name: 中国中车, category: 乙, ats: generic, url: "https://zhaopin.crrcgc.cc/"}
+  # --- 山东省属国企 ---
+  - {name: 山东能源集团, category: 甲, ats: generic, url: "https://zhaopin.shandong-energy.com/recruit"}
+  - {name: 山东重工, category: 甲, ats: beisen, url: "https://weichai.zhiye.com/"}
+  - {name: 华鲁控股, category: 甲, ats: zhilian, url: "https://hualu.zhaopin.com/"}
+  - {name: 山东海洋集团, category: 甲, ats: generic, url: "https://www.sdocean.com.cn/"}
+  - {name: 山东钢铁集团, category: 甲, ats: generic, url: "https://www.shansteelgroup.com/"}
+  - {name: 齐鲁交通(山东高速), category: 甲, ats: zhilian, url: "https://sdhsg.zhaopin.com/"}

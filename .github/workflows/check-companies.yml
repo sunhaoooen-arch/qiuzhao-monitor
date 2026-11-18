@@ -1,0 +1,45 @@
+name: 试抓公司清单
+
+# 改了公司清单或抓取代码时,在 PR 上试抓一遍,看新 URL 能不能抓到岗位。
+# 不读写去重库、不发邮件、不提交。
+on:
+  pull_request:
+    paths:
+      - "companies*.yaml"
+      - "monitor/**"
+      - "scripts/check_companies.py"
+  workflow_dispatch:
+    inputs:
+      names:
+        description: "只试抓这些公司(空格分隔,留空=全部启用的)"
+        required: false
+        default: ""
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [1, 2, 3, 4]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 安装依赖
+        run: |
+          python -m pip install -U pip
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: 试抓
+        env:
+          NAMES: ${{ inputs.names }}
+        run: |
+          FILE=companies.yaml
+          [ -f companies.candidates.yaml ] && FILE=companies.candidates.yaml
+          python scripts/check_companies.py --file "$FILE" --shard ${{ matrix.shard }}/4 $NAMES
