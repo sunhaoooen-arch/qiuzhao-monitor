@@ -1,5 +1,5 @@
 # 每日搜索整理的校招公告(Claude 定时任务写入,监控运行时并入邮件)。链接优先用官网/高校就业网,其次是转载。
-searched_at: "2026-11-18 08:35"
+searched_at: "2026-11-19 08:35"
 announcements:
   # --- 央企·信息通信军工 ---
   - {company: 国家电网, title: "国家电网2027年提前批校园招聘（正式第一批公告通常10月下旬发布）", url: "https://www.sohu.com/a/1079183361_121124029", date: ""}
@@ -33,6 +33,7 @@ announcements:
   - {company: 航天科工, title: "航天科工2027届校园招聘全面启动", url: "http://www.casic.com.cn/n27219851/n27219940/c31882489/content.html", date: ""}
   - {company: 航天科工, title: "中国航天科工二院二〇七所2027届秋季校园招聘", url: "https://campus.niuqizp.com/schedule-7krmNnNtL.html", date: "2026-10-17"}
   - {company: 航天科工, title: "航天三江红林公司2027届校园招聘", url: "https://campus.niuqizp.com/schedule-7smUNnzNn.html", date: "2026-10-20"}
+  - {company: 航天科工, title: "航天三江万峰科技2027届校园招聘（至11月30日）", url: "https://campus.niuqizp.com/schedule-7kYYtLztn.html", date: "2026-11-18"}
   - {company: 航天科技, title: "中国航天科技集团2027届校园招聘（国聘官方页）", url: "https://spacechina.iguopin.com/job-campus", date: ""}
   - {company: 航天科技, title: "航天金美、北京航天测控、世纪卫星等系统公司2027年校园招聘", url: "https://campus.niuqizp.com/schedule-7rkyNnMNa.html", date: "2026-10-26"}
   - {company: 航空工业, title: "中国航空工业集团2027届校园招聘正式启动", url: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35842048/content.html", date: ""}
