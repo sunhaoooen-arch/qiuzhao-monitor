@@ -1,5 +1,5 @@
 # 每日搜索整理的校招公告(Claude 定时任务写入,监控运行时并入邮件)。链接优先用官网/高校就业网,其次是转载。
-searched_at: "2026-11-19 08:35"
+searched_at: "2026-11-20 08:35"
 announcements:
   # --- 央企·信息通信军工 ---
   - {company: 国家电网, title: "国家电网2027年提前批校园招聘（正式第一批公告通常10月下旬发布）", url: "https://www.sohu.com/a/1079183361_121124029", date: ""}
@@ -13,6 +13,9 @@ announcements:
   - {company: 国家电网, title: "国网电力科学研究院（南瑞集团）2027年高校毕业生招聘公告（第一批）", url: "https://campus.niuqizp.com/schedule-7mrytLZCM.html", date: "2026-11-17"}
   - {company: 国家电网, title: "中国电力技术装备有限公司2027年高校毕业生招聘公告（第一批）", url: "https://campus.niuqizp.com/schedule-7YYmtLZML.html", date: "2026-11-17"}
   - {company: 国家电网, title: "远光软件2027年高校毕业生招聘公告（第一批）", url: "https://campus.niuqizp.com/schedule-7rrytLZnC.html", date: "2026-11-17"}
+  - {company: 国家电网, title: "国家电网有限公司2027年招聘高校毕业生公告（第一批，统一笔试暂定12月6日）", url: "https://campus.niuqizp.com/schedule-7kmUtLaZz.html", date: "2026-11-19"}
+  - {company: 国家电网, title: "国网英大国际控股集团2027届秋季校园招聘（至11月25日）", url: "https://campus.niuqizp.com/schedule-7UmstLCLz.html", date: "2026-11-19"}
+  - {company: 国家电网, title: "国网数字科技控股2027届秋季校园招聘（至11月25日）", url: "https://campus.niuqizp.com/schedule-7kY8tLaMn.html", date: "2026-11-19"}
   - {company: 中国移动, title: "中国移动2027校园招聘全面启动", url: "https://career.nankai.edu.cn/correcruit/content/id/118222.html", date: ""}
   - {company: 中国移动, title: "中国移动成都产业研究院2027届秋招（金种子计划）", url: "https://www.wondercv.com/xiaozhao/china-mobile-chengdu-2027-campus-17405-c8e659/", date: "2026-10-05"}
   - {company: 中国电信, title: "中国电信集团有限公司2027年度校园招聘公告", url: "https://job.ncss.cn/student/jobs/QyG2RcGTr77WdKqKF5VHEY/detail.html", date: ""}
@@ -159,6 +162,7 @@ announcements:
   - {company: 中国一汽, title: "中国一汽研发总院底盘开发部2027校园招聘", url: "https://www.wondercv.com/xiaozhao/faw-research-chassis-changchun-2027-campus-20313-77b221/", date: "2026-11-02"}
   - {company: 中国一汽, title: "一汽丰田2027校园招聘", url: "https://campus.niuqizp.com/schedule-7YslNMCZ5.html", date: "2026-11-05"}
   - {company: 中国一汽, title: "一汽解放2027全球校园招聘（海外营销专项）", url: "https://campus.niuqizp.com/schedule-7swrNMCZN.html", date: "2026-11-05"}
+  - {company: 中国一汽, title: "中国一汽2027全球校园招聘（持续进行中）", url: "https://campus.niuqizp.com/schedule-7lYltLaCL.html", date: "2026-11-19"}
   - {company: 南方电网, title: "南方电网科学研究院2027年校园招聘公告（秋招批）", url: "https://campus.niuqizp.com/schedule-7yskNnCzZ.html", date: "2026-10-23"}
   - {company: 天津工程咨询, title: "天津工程咨询有限公司2027届校园招聘", url: "https://campus.niuqizp.com/schedule-78lkNnCaN.html", date: "2026-10-23"}
   - {company: 谷歌, title: "【实习】Google谷歌实习生计划岗位申请开启", url: "https://campus.niuqizp.com/schedule-7U8rNnCZt.html", date: "2026-10-23"}
@@ -240,6 +244,7 @@ announcements:
   - {company: 中国国家铁路集团, title: "中国铁路南宁局集团招聘2027年高校毕业生公告一（本科及以上）", url: "https://campus.niuqizp.com/schedule-7w88tLNMt.html", date: "2026-11-13"}
   - {company: 中国国家铁路集团, title: "中国铁路郑州局集团2027年招聘普通高校毕业生公告（二）", url: "https://www.wondercv.com/xiaozhao/china-railway-zhengzhou-2027-campus-21141-655215/", date: "2026-11-13"}
   - {company: 中国国家铁路集团, title: "中国铁路上海局集团2027年度秋招公告（第二批次）", url: "https://www.wondercv.com/xiaozhao/china-railway-shanghai-2027-autumn-recruitment-21210-4976ed/", date: "2026-11-14"}
+  - {company: 中国国家铁路集团, title: "中国铁路太原局集团2027年招聘普通高校毕业生公告（一）", url: "https://campus.niuqizp.com/schedule-7UYktLatn.html", date: "2026-11-19"}
   - {company: 金华银行, title: "金华银行2027届秋季校园招聘", url: "https://www.wondercv.com/xiaozhao/bank-of-jinhua-2027-autumn-campus-20515-1e9cce/", date: "2026-11-04"}
   - {company: 美图, title: "美图2027校园招聘", url: "https://www.wondercv.com/xiaozhao/meitu-2027-campus-shenzhen-xiamen-20517-ec6f01/", date: "2026-11-04"}
   - {company: 通用技术集团, title: "通用技术集团2027管培生招聘", url: "https://campus.niuqizp.com/schedule-7srYNMann.html", date: "2026-11-04"}
@@ -274,6 +279,9 @@ announcements:
   - {company: 国联民生证券, title: "国联民生承销保荐秋季校园招聘（面向2027届，至12月14日）", url: "https://campus.niuqizp.com/schedule-7kwYtLZLz.html", date: "2026-11-16"}
   - {company: 中国中车, title: "青岛四方阿尔斯通2027届校园招聘（至11月20日）", url: "https://campus.niuqizp.com/schedule-7wwYtLZL5.html", date: "2026-11-17"}
   - {company: 搜狐, title: "【实习】搜狐集团2027实习生招聘", url: "https://campus.niuqizp.com/schedule-7srytLZCz.html", date: "2026-11-17"}
+  - {company: 中国金币集团, title: "中国金币集团及所属单位2027年度秋季校园招聘公告（至12月6日）", url: "https://campus.niuqizp.com/schedule-7myUtLatM.html", date: "2026-11-19"}
+  - {company: 上海清算所, title: "银行间市场清算所2027年度校园招聘公告", url: "https://campus.niuqizp.com/schedule-7slktLaZn.html", date: "2026-11-19"}
+  - {company: 中国平安, title: "平安理财2027届校招科技专场", url: "https://www.wondercv.com/xiaozhao/ping-an-wealth-2027-tech-shenzhen-21542-d39894/", date: "2026-11-19"}
 not_found:
   - 鲁商集团
   - 山东中烟
