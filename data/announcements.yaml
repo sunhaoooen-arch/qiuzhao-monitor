@@ -1,5 +1,5 @@
 # 每日搜索整理的校招公告(Claude 定时任务写入,监控运行时并入邮件)。链接优先用官网/高校就业网,其次是转载。
-searched_at: "2026-11-22 08:35"
+searched_at: "2026-11-24 08:35"
 announcements:
   # --- 央企·信息通信军工 ---
   - {company: 国家电网, title: "国家电网2027年提前批校园招聘（正式第一批公告通常10月下旬发布）", url: "https://www.sohu.com/a/1079183361_121124029", date: ""}
@@ -46,6 +46,7 @@ announcements:
   - {company: 航空工业, title: "航空工业金航数码2027届校园招聘", url: "https://campus.niuqizp.com/schedule-7YmsNnzMa.html", date: "2026-10-21"}
   - {company: 航空工业, title: "航空工业导弹院2027届校园招聘", url: "https://www.wondercv.com/xiaozhao/avic-missile-institute-2027-campus-20666-111a22/", date: "2026-11-08"}
   - {company: 航空工业, title: "中航工业集团财务有限责任公司2027届校园招聘（北京）", url: "https://www.wondercv.com/xiaozhao/avic-finance-beijing-2027-campus-21722-49a613/", date: "2026-11-21"}
+  - {company: 航空工业, title: "航空工业航宇、导弹院、沈阳所2027届校园招聘（至12月20日）", url: "https://campus.niuqizp.com/schedule-7UsUtLCMn.html", date: "2026-11-22"}
   - {company: 中国通号, title: "中国通号2027届校园招聘全面启动", url: "https://www.dikongjie.com/11126.html", date: ""}
   # --- 央企·能源与综合 ---
   - {company: 国家能源集团, title: "国家能源集团2027年度高校毕业生直招（10月25日全国统考）", url: "https://zhaopin.chnenergy.com.cn/annc/annclist?ggtype=1", date: "2026-09-04"}
@@ -275,6 +276,7 @@ announcements:
   - {company: 中核集团, title: "三门核电2027年校园招聘", url: "https://campus.niuqizp.com/schedule-7rYUtLtN5.html", date: "2026-11-13"}
   - {company: 中核集团, title: "海南核电2027届校园招聘", url: "https://www.wondercv.com/xiaozhao/hainan-nuclear-2027-campus-21213-98de5a/", date: "2026-11-14"}
   - {company: 中核集团, title: "中核苏能2027年度校园招聘", url: "https://www.wondercv.com/xiaozhao/cnnc-suneng-lianyungang-2027-campus-21691-72303b/", date: "2026-11-20"}
+  - {company: 中核集团, title: "中核浙能2027校园招聘（宁波象山金七门核电）", url: "https://www.wondercv.com/xiaozhao/cnnc-zhejiang-ningbo-xiangshan-2027-campus-21814-f998b3/", date: "2026-11-23"}
   - {company: 中国供销集团, title: "中国供销集团2027年度应届高校毕业生招聘公告", url: "https://campus.niuqizp.com/schedule-78UktLtaN.html", date: "2026-11-15"}
   - {company: 中国雄安集团, title: "中国雄安集团2027年度校园招聘公告", url: "https://campus.niuqizp.com/schedule-7UwmtLtZz.html", date: "2026-11-14"}
   - {company: 东营国投, title: "东营市国有资本投资集团2027届秋季校园招聘", url: "https://www.wondercv.com/xiaozhao/dongying-state-capital-investment-27-autumn-21205-c7fb7a/", date: "2026-11-14"}
